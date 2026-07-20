@@ -34,8 +34,20 @@ def num_or_none(v):
     return v if NUM.match(v) else None   # keep as string; "Missing data" -> None
 
 
+def detect_year_and_basin(doc):
+    """Read the report's water year and subbasin from its first pages."""
+    head = re.sub(r"\s+", " ", " ".join(doc[i].get_text() for i in range(min(3, len(doc)))))
+    ym = re.search(r"water\s*year\s*(20\d\d)", head, re.I)
+    year = f"WY{ym.group(1)}" if ym else ""
+    bm = re.search(r"([A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+){0,2})\s+Subbasin", head, re.I)
+    basin = bm.group(1).strip().title() if bm else ""
+    return year, basin
+
+
 def extract_report(report_year, pdf_path):
     doc = fitz.open(pdf_path)
+    auto_year, auto_basin = detect_year_and_basin(doc)
+    report_year = report_year or auto_year or "unknown"
     rows = []
     for page in doc:
         for tab in page.find_tables().tables:
@@ -70,7 +82,7 @@ def extract_report(report_year, pdf_path):
                 for pc in period_cols:
                     val = num_or_none(r[pc]) if pc < len(r) else None
                     rows.append({
-                        "report_year": report_year, "GSA": gsa, "station_id": sid,
+                        "report_year": report_year, "subbasin": auto_basin, "GSA": gsa, "station_id": sid,
                         "latitude": r[ci_lat] if ci_lat is not None and ci_lat < len(r) else "",
                         "longitude": r[ci_lon] if ci_lon is not None and ci_lon < len(r) else "",
                         "station_type": r[ci_type] if ci_type is not None and ci_type < len(r) else "",
@@ -85,14 +97,29 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     all_rows = []
+    # Args: "<year>=<pdf>" (explicit year) or just "<pdf>" (auto-detect year+basin).
     for arg in sys.argv[1:]:
-        year, _, path = arg.partition("=")
+        if "=" in arg and not os.path.exists(arg):
+            year, _, path = arg.partition("=")
+        else:
+            year, path = "", arg
         if not os.path.exists(path):
-            print(f"  {year}: file not found: {path}"); continue
+            print(f"  file not found: {path}"); continue
         all_rows += extract_report(year, path)
+    # Append to any existing output so multiple runs accumulate.
     os.makedirs(DATA, exist_ok=True)
-    cols = ["report_year", "GSA", "station_id", "latitude", "longitude",
+    cols = ["report_year", "subbasin", "GSA", "station_id", "latitude", "longitude",
             "station_type", "period", "displacement_ft"]
+    if os.path.exists(OUT):
+        prev = list(csv.DictReader(open(OUT)))
+        all_rows = prev + all_rows
+    # De-duplicate on (report_year, subbasin, station_id, period) so re-runs are idempotent.
+    seen, deduped = set(), []
+    for r in all_rows:
+        k = (r["report_year"], r.get("subbasin", ""), r["station_id"], r["period"])
+        if k not in seen:
+            seen.add(k); deduped.append(r)
+    all_rows = deduped
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(all_rows)
     with_val = sum(1 for r in all_rows if r["displacement_ft"] is not None)

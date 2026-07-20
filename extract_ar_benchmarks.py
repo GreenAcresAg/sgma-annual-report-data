@@ -23,9 +23,20 @@ import fitz  # PyMuPDF
 
 DATA = os.path.join(os.path.dirname(__file__), "data")
 OUT = os.path.join(DATA, "benchmark_displacement_annual.csv")
-# Header signature that identifies the Land Subsidence RMS table (Table E-1).
-HDR = re.compile(r"subsidence\s*rms|land subsidence rms", re.I)
-PERIOD_COL = re.compile(r"fall\s*\d{4}.*fall\s*\d{4}|20\d\d.*20\d\d", re.I)
+# A table is a subsidence table if any header cell looks subsidence-related.
+SUBS_HDR = re.compile(r"subsid|displacement|rms|benchmark", re.I)
+# A value column: header names a year, or subsidence/displacement/elevation/cumulative.
+VALUE_COL = re.compile(r"\b(19|20)\d\d\b|subsid|displacement|elevation|cumulative|feet|fall", re.I)
+# ...but NOT a threshold/criteria/target column (those aren't measurements).
+NOISE_COL = re.compile(r"allowable|threshold|minimum|maximum|criteria|objective|measurable|"
+                       r"target|interim|\bMT\b|\bMO\b|undesirable", re.I)
+# Reject junk station ids (sentence fragments captured as rows).
+JUNK_ID = re.compile(r"\b(the|interim|table|figure|note|between|report|see|total|average)\b", re.I)
+# Columns that identify the monitoring station.
+STATION_COL = re.compile(r"station|site|benchmark|monitor|well|rms\s*id", re.I)
+LAT_COL = re.compile(r"lat", re.I); LON_COL = re.compile(r"lon", re.I)
+TYPE_COL = re.compile(r"type", re.I); AGENCY_COL = re.compile(r"gsa|agency|responsible", re.I)
+SKIP_COL = re.compile(r"responsible|agency|county|comment|note", re.I)
 NUM = re.compile(r"^[+-]?\d+(\.\d+)?$")
 
 
@@ -36,9 +47,9 @@ def num_or_none(v):
 
 def detect_year_and_basin(doc):
     """Read the report's water year and subbasin from its first pages."""
-    head = re.sub(r"\s+", " ", " ".join(doc[i].get_text() for i in range(min(3, len(doc)))))
-    ym = re.search(r"water\s*year\s*(20\d\d)", head, re.I)
-    year = f"WY{ym.group(1)}" if ym else ""
+    head = re.sub(r"\s+", " ", " ".join(doc[i].get_text() for i in range(min(4, len(doc)))))
+    ym = re.search(r"water\s*year\s*(20\d\d)|\bWY[\s-]?(20\d\d)", head, re.I)
+    year = "WY" + (ym.group(1) or ym.group(2)) if ym else ""
     bm = re.search(r"([A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+){0,2})\s+Subbasin", head, re.I)
     basin = bm.group(1).strip().title() if bm else ""
     return year, basin
@@ -52,44 +63,56 @@ def extract_report(report_year, pdf_path):
     for page in doc:
         for tab in page.find_tables().tables:
             data = tab.extract()
-            if not data or len(data) < 2:
+            if not data or len(data) < 3:
                 continue
             hdr = [(c or "").replace("\n", " ").strip() for c in data[0]]
-            if not any(HDR.search(h) for h in hdr):
+            if not any(SUBS_HDR.search(h) for h in hdr):
                 continue
-            # locate columns
-            def find(*keys):
+
+            def find(rx):
                 for i, h in enumerate(hdr):
-                    if any(k in h.lower() for k in keys):
+                    if rx.search(h):
                         return i
                 return None
-            ci_gsa = find("gsa")
-            ci_id = find("station id", "rms station", "station")
-            ci_lat = find("latitude"); ci_lon = find("longitude")
-            ci_type = find("station type", "type")
-            # value (period) columns = any header naming two years / "fall .. fall"
-            period_cols = [i for i, h in enumerate(hdr) if PERIOD_COL.search(h)]
-            if ci_id is None or not period_cols:
+            # station column = a station-named col, else the first mostly-text column
+            ci_id = find(STATION_COL)
+            if ci_id is None:
+                for i, h in enumerate(hdr):
+                    if not SKIP_COL.search(h) and not VALUE_COL.search(h) and not LAT_COL.search(h) and not LON_COL.search(h):
+                        ci_id = i; break
+            ci_lat = find(LAT_COL); ci_lon = find(LON_COL)
+            ci_type = find(TYPE_COL); ci_gsa = find(AGENCY_COL)
+            # value columns = header names a metric AND the column actually holds numbers
+            value_cols = []
+            for i, h in enumerate(hdr):
+                if i in (ci_id, ci_lat, ci_lon, ci_type, ci_gsa) or not VALUE_COL.search(h) or NOISE_COL.search(h):
+                    continue
+                nums = sum(1 for r in data[1:] if i < len(r) and NUM.match((r[i] or "").replace("+", "").strip()))
+                if nums >= 2:
+                    value_cols.append(i)
+            if ci_id is None or not value_cols:
                 continue
             gsa = ""
+            n_st = 0
             for r in data[1:]:
                 r = [(c or "").replace("\n", " ").strip() for c in r]
-                if ci_gsa is not None and r[ci_gsa]:
-                    gsa = r[ci_gsa]            # GSA cells are merged; carry down
+                if ci_gsa is not None and ci_gsa < len(r) and r[ci_gsa]:
+                    gsa = r[ci_gsa]
                 sid = r[ci_id] if ci_id < len(r) else ""
-                if not sid or sid.lower().startswith(("subsidence", "station")):
+                if (not sid or SUBS_HDR.search(sid) or sid.lower() in ("station", "site", "id")
+                        or len(sid) > 22 or len(sid.split()) > 3 or JUNK_ID.search(sid)):
                     continue
-                for pc in period_cols:
-                    val = num_or_none(r[pc]) if pc < len(r) else None
+                n_st += 1
+                for vc in value_cols:
                     rows.append({
                         "report_year": report_year, "subbasin": auto_basin, "GSA": gsa, "station_id": sid,
                         "latitude": r[ci_lat] if ci_lat is not None and ci_lat < len(r) else "",
                         "longitude": r[ci_lon] if ci_lon is not None and ci_lon < len(r) else "",
                         "station_type": r[ci_type] if ci_type is not None and ci_type < len(r) else "",
-                        "period": hdr[pc], "displacement_ft": val,
+                        "metric": hdr[vc], "value": num_or_none(r[vc]) if vc < len(r) else None,
                     })
-            print(f"  {report_year} p{page.number}: Table E-1 -> {len(data)-1} stations, "
-                  f"{len(period_cols)} period column(s)")
+            print(f"  {report_year} ({auto_basin}) p{page.number}: subsidence table -> "
+                  f"{n_st} stations x {len(value_cols)} metric col(s)")
     return rows
 
 
@@ -109,18 +132,18 @@ if __name__ == "__main__":
     # Append to any existing output so multiple runs accumulate.
     os.makedirs(DATA, exist_ok=True)
     cols = ["report_year", "subbasin", "GSA", "station_id", "latitude", "longitude",
-            "station_type", "period", "displacement_ft"]
+            "station_type", "metric", "value"]
     if os.path.exists(OUT):
         prev = list(csv.DictReader(open(OUT)))
         all_rows = prev + all_rows
-    # De-duplicate on (report_year, subbasin, station_id, period) so re-runs are idempotent.
+    # De-duplicate on (report_year, subbasin, station_id, metric) so re-runs are idempotent.
     seen, deduped = set(), []
     for r in all_rows:
-        k = (r["report_year"], r.get("subbasin", ""), r["station_id"], r["period"])
+        k = (r["report_year"], r.get("subbasin", ""), r["station_id"], r.get("metric", ""))
         if k not in seen:
             seen.add(k); deduped.append(r)
     all_rows = deduped
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(all_rows)
-    with_val = sum(1 for r in all_rows if r["displacement_ft"] is not None)
+    with_val = sum(1 for r in all_rows if r.get("value") is not None)
     print(f"wrote {len(all_rows)} rows ({with_val} with a value) -> {os.path.basename(OUT)}")

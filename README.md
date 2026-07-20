@@ -54,16 +54,33 @@ combine incompatible series. **[SURVEY_BASIS.md](SURVEY_BASIS.md)** has the full
   `RP_DESCRIPTION`, `SITE_TYPE`, and network — many GSAs leave the datum/RP fields blank or `0`,
   which is itself a caveat flagged per site.
 
-## Known completeness gap (important)
+## Benchmark data from annual report PDFs (`extract_ar_benchmarks.py`)
 
-DWR's central export is **incomplete for physical subsidence benchmarks in some subbasins**. In
-the **Tulare Lake subbasin (5-022.12)** every benchmark has only **1–2 submitted measurements
-(2019–2020)** — not the annual-since-2000 leveling history that appears in the GSAs' actual
-annual reports. The dense multi-decade series in this dataset belong mostly to **Tule,
-Delta-Mendota, and Westside** sites (and are often `Remote Sensing`/InSAR points, not physical
-benchmarks). Filling the Tulare Lake history requires extracting from the **individual GSA annual
-report submittals** (North Fork Kings, South Fork Kings, Southwest Kings, Mid-Kings River,
-El Rico, Tri-County WA) — a planned follow-on (`docs/BACKLOG.md`).
+DWR's central export has **no benchmark measurements for the Tulare Lake subbasin** — the values
+live only inside each annual report's **Appendix E, Table E-1 "Land Subsidence RMS Monitoring
+Network"** (per-benchmark **annual Fall-to-Fall displacement, feet**). Neither the SGMA-portal
+data export (0 readings, all years) nor `gspmd` has them.
+
+`extract_ar_benchmarks.py` pulls Table E-1 straight out of the report PDFs (structured table
+extraction) into `data/benchmark_displacement_annual.csv` (long format: report_year, GSA,
+station_id, lat, lon, station_type, period, displacement_ft).
+
+```bash
+# download the report PDF(s) from the portal, then:
+python3 extract_ar_benchmarks.py WY2024=path/to/tulare_lake_wy2024.pdf [WY2023=... ...]
+```
+Report PDFs: SGMA portal → `…/portal/gspar/preview/<submittal>` → export/documents, or
+`…/portal/service/gspar/document/<id>`. **WY2024 Tulare Lake** = submittal `477`, main report
+doc `4886` (41-station RMS network; 25 benchmarks surveyed by Kings River Conservation District,
+plus CGPS CRCN & LEMA).
+
+**Status:** WY2024 extracted (38 stations). To build the full 2019→2024 annual series, run the
+same extractor on each prior-year Tulare Lake report (WY2020–2023) — those submittal/doc ids are
+the remaining input (`docs/BACKLOG.md`). Pre-2019 leveling is in the GSP (not annual reports).
+
+> **Survey basis:** these are *annual* Fall-to-Fall increments, not cumulative — sum them (aligned
+> to a common start) to get cumulative subsidence. `station_type` distinguishes surveyed
+> benchmarks from CGPS. See [SURVEY_BASIS.md](SURVEY_BASIS.md).
 
 ## License / attribution
 Source data © California DWR, public domain, via the CA Natural Resources Agency Open Data

@@ -1,0 +1,3 @@
+# extract_ar_benchmarks.py needs PyMuPDF for PDF table extraction:
+#   pip3 install --user pymupdf
+pymupdf

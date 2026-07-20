@@ -1,0 +1,77 @@
+report_year,GSA,station_id,latitude,longitude,station_type,period,displacement_ft
+WY2024,El Rico,SUB083,36.036209,-119.571581,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,SUB083,36.036209,-119.571581,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.548
+WY2024,El Rico,SUB109,36.123381,-119.698447,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,SUB109,36.123381,-119.698447,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.249
+WY2024,El Rico,SUB110,36.079606,-119.771000,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,SUB110,36.079606,-119.771000,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.263
+WY2024,El Rico,SUB093,35.887869,-119.525004,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.0694
+WY2024,El Rico,SUB093,35.887869,-119.525004,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.220
+WY2024,El Rico,SUB125,36.137720,-119.585053,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2320
+WY2024,El Rico,SUB125,36.137720,-119.585053,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.259
+WY2024,El Rico,CRCN,36.113986,-119.568034,Continuous GPS,Fall 2022 to Fall 2023 (feet),-0.0719
+WY2024,El Rico,CRCN,36.113986,-119.568034,Continuous GPS,Fall 2023 to Fall 2024 (feet),-0.100
+WY2024,El Rico,S238,36.123351,-119.574423,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,S238,36.123351,-119.574423,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,El Rico,S234P2,36.182147,-119.600168,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,S234P2,36.182147,-119.600168,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,El Rico,SUB139,35.862370,-119.573494,,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,SUB139,35.862370,-119.573494,,Fall 2023 to Fall 2024 (feet),
+WY2024,El Rico,SUB143,36.042594,-119.642907,,Fall 2022 to Fall 2023 (feet),
+WY2024,El Rico,SUB143,36.042594,-119.642907,,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,K021,36.401405,-119.580471,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.013
+WY2024,Mid-Kings River,K021,36.401405,-119.580471,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,S224P2,36.327939,-119.595252,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.1210
+WY2024,Mid-Kings River,S224P2,36.327939,-119.595252,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,S222R,36.357226,-119.583544,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,S222R,36.357226,-119.583544,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,SUB032,36.327500,-119.647222,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.5350
+WY2024,Mid-Kings River,SUB032,36.327500,-119.647222,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.551
+WY2024,Mid-Kings River,SUB111,36.313418,-119.736111,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.5136
+WY2024,Mid-Kings River,SUB111,36.313418,-119.736111,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.610
+WY2024,Mid-Kings River,SUB068,36.313611,-119.735556,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,SUB068,36.313611,-119.735556,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,N 460 RESET,36.313889,-119.722222,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,N 460 RESET,36.313889,-119.722222,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,X 931,36.323182,-119.709159,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,X 931,36.323182,-119.709159,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,SUB091,36.327222,-119.645833,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,SUB091,36.327222,-119.645833,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,U 808,36.328056,-119.609167,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,U 808,36.328056,-119.609167,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,U 511,36.328094,-119.625146,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,U 511,36.328094,-119.625146,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,X 511,36.342778,-119.645833,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,X 511,36.342778,-119.645833,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Mid-Kings River,SUB137,36.390352,-119.618945,,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,SUB137,36.390352,-119.618945,,Fall 2023 to Fall 2024 (feet),-0.417
+WY2024,Mid-Kings River,SUB138,36.379117,-119.619106,,Fall 2022 to Fall 2023 (feet),
+WY2024,Mid-Kings River,SUB138,36.379117,-119.619106,,Fall 2023 to Fall 2024 (feet),-0.630
+WY2024,South Fork Kings,SUB028,36.255639,-119.859718,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.4883
+WY2024,South Fork Kings,SUB028,36.255639,-119.859718,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.112
+WY2024,South Fork Kings,SUB086,36.362590,-119.809092,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.3553
+WY2024,South Fork Kings,SUB086,36.362590,-119.809092,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.331
+WY2024,South Fork Kings,SUB102,36.189496,-119.845100,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2225
+WY2024,South Fork Kings,SUB102,36.189496,-119.845100,benchmark surveyed,Fall 2023 to Fall 2024 (feet),0.036
+WY2024,South Fork Kings,SUB061,36.172256,-119.815929,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2109
+WY2024,South Fork Kings,SUB061,36.172256,-119.815929,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.036
+WY2024,South Fork Kings,LEMA,36.292025,-119.782390,Continuous GPS,Fall 2022 to Fall 2023 (feet),-0.2712
+WY2024,South Fork Kings,LEMA,36.292025,-119.782390,Continuous GPS,Fall 2023 to Fall 2024 (feet),-0.114
+WY2024,Southwest Kings,SUB027,35.992608,-119.959281,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.1384
+WY2024,Southwest Kings,SUB027,35.992608,-119.959281,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.338
+WY2024,Southwest Kings,SUB030,35.857055,-119.891512,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.0972
+WY2024,Southwest Kings,SUB030,35.857055,-119.891512,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.052
+WY2024,Southwest Kings,SUB076,35.789925,-119.869016,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.1473
+WY2024,Southwest Kings,SUB076,35.789925,-119.869016,benchmark surveyed,Fall 2023 to Fall 2024 (feet),0.111
+WY2024,Southwest Kings,U 1097,35.978890,-119.951390,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2024,Southwest Kings,U 1097,35.978890,-119.951390,benchmark surveyed,Fall 2023 to Fall 2024 (feet),
+WY2024,Southwest Kings,SUB144,36.137936,-119.892533,,Fall 2022 to Fall 2023 (feet),
+WY2024,Southwest Kings,SUB144,36.137936,-119.892533,,Fall 2023 to Fall 2024 (feet),
+WY2024,Tri-County Water Authority,SUB107,35.934045,-119.754114,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.4022
+WY2024,Tri-County Water Authority,SUB107,35.934045,-119.754114,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.489
+WY2024,Tri-County Water Authority,SUB038,35.933210,-119.756113,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.0529
+WY2024,Tri-County Water Authority,SUB038,35.933210,-119.756113,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.370
+WY2024,Tri-County Water Authority,SUB124,35.934116,-119.645005,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2692
+WY2024,Tri-County Water Authority,SUB124,35.934116,-119.645005,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.131
+WY2024,Tri-County Water Authority,SUB140,35.789746,-119.575621,,Fall 2022 to Fall 2023 (feet),
+WY2024,Tri-County Water Authority,SUB140,35.789746,-119.575621,,Fall 2023 to Fall 2024 (feet),

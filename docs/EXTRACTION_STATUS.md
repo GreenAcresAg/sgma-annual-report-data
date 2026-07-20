@@ -13,7 +13,7 @@ absolute elevations (≈ hundreds of ft amsl) — filter by `metric`.
 |---|---|---|
 | **Tulare Lake** (WY2024) | ✅ clean | Geosyntec "Table E-1", annual Fall-to-Fall displacement (ft). Verified. |
 | **Kaweah** (WY2023, WY2024) | ✅ clean | Per-year elevations (amsl) + WY subsidence (ft). |
-| **Tule** | ⚠️ mixed / raw | Report mixes InSAR-derived points, elevations, and annual subsidence; `report_year` not auto-detected ("unknown"); needs per-format cleanup + station-type separation. |
+| **Tule** (WY2024) | ✅ clean | Dedicated `extract_tule.py` targets the "Benchmark Name" leveling table (69 benchmarks, coords, 2023 & 2024 elevations + 2023→2024 subsidence). InSAR/threshold tables excluded. |
 | **Westside** | ⚠️ partial | Only 1 row captured — subsidence is mostly in figures, not tables. |
 | **Delta-Mendota** | ❌ none | No parsable subsidence table (figures / different layout). |
 

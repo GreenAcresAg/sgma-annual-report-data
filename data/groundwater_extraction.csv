@@ -1,0 +1,112 @@
+GSPAR_IDS,ALTAR_ID,REPORT_YEAR,BASIN_NAME,SUBBASIN_NUMBER,SINGLE_MULTIPLE_AR,ANNUAL_REPORT_AREA,TOTAL_GROUNDWATER_EXTRACTIONS,WUS_URBAN,WUS_INDUSTRIAL,WUS_AGRICULTURAL,WUS_MANAGED_WETLANDS,WUS_MANAGED_RECHARGE,WUS_VEGETATION,WUS_OTHER,WUS_OTHER_EXPLANATION
+10,,2019,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,209970,6670,0,203300,0,0,0,0,
+8,,2019,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,270400,19800,6400,230600,13600,0,0,0,
+14,,2019,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,738147,56747,0,681400,0,0,0,0,
+29,,2019,KAWEAH,5-022.11,Single Annual Report,Entire Basin,686300,60000,21800,603900,0,236900,600,0,
+9,,2019,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1284183,150892,0,1096779,0,0,0,36512,"Banking Recovery, exchanges and pumpins"
+26,,2019,KINGS,5-022.08,Single Annual Report,Entire Basin,1061594,156073,0,897723,0,381436,0,7798,James ID Wells pumped in McMullin Area GSA (agricultural use)
+"20,22,25,33",,2019,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,435112,28915,0,406197,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+12,,2019,MERCED,5-022.04,Single Annual Report,Entire Basin,637804,48467,0,576842,12495,0,0,0,
+28,,2019,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,480390,9500,0,444319,0,0,0,26420,Other is Municipal Usage from Cities and Communities.
+"34,35,36,37,38,39",,2019,TULE,5-022.13,Multiple Annual Reports,Entire Basin,498934,20900,0,463800,0,0,0,9234,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+27,,2019,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,119000,0,0,119000,0,0,0,178,Small water systems (96 AF) and Domestic wells (82 AF)
+54,,2020,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,313430,9070,0,304360,0,0,0,0,
+59,,2020,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,394300,22600,6700,347100,17900,0,0,0,
+51,,2020,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,790416,56271,0,734145,0,0,0,0,
+60,,2020,KAWEAH,5-022.11,Single Annual Report,Entire Basin,1023200,60900,21800,940000,0,20700,450,0,
+63,,2020,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1835054,152291,0,1342590,0,259658,0,80515,"use outside basin, lake level management, pumping for unspecified or multiple water uses"
+62,,2020,KINGS,5-022.08,Single Annual Report,Entire Basin,1353418,155029,0,1161511,0,95515,0,36878,James ID wells pumped in McMullin GSA
+"48,55,61,68",,2020,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,576308,35957,0,540451,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+42,,2020,MERCED,5-022.04,Single Annual Report,Entire Basin,701391,51496,0,635004,14891,0,0,0,
+43,,2020,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,375293,27118,0,339474,0,0,0,8701,Rural Domestic
+"64,65,66,69,70,71",,2020,TULE,5-022.13,Multiple Annual Reports,Entire Basin,755550,17080,0,710500,0,0,0,13960,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+67,,2020,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,400216,0,0,400000,0,0,0,216,Small water systems (134 AF) and Domestic wells (82 AF)
+133,,2021,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,374360,9930,0,364430,0,0,0,0,
+109,,2021,COSUMNES,5-022.16,Single Annual Report,Entire Basin,149300,16200,0,133100,0,0,0,0,
+113,,2021,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,562300,22100,7200,498000,35000,0,0,0,
+137,,2021,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,42095,6853,0,35242,0,0,0,0,
+86,,2021,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,809327,51487,0,757840,0,0,0,0,
+171,,2021,KAWEAH,5-022.11,Single Annual Report,Entire Basin,1036600,64600,21800,949700,0,5800,400,0,
+146,,2021,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,2471156,170084,0,1809934,0,427543,0,63594,"Banking Recovery, exchanges and pumpins"
+155,,2021,KINGS,5-022.08,Single Annual Report,Entire Basin,2293436,168571,0,2082555,0,21601,0,42310,-
+"134,163,173,175",,2021,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,597030,39410,0,557620,0,119,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+108,,2021,MERCED,5-022.04,Single Annual Report,Entire Basin,800754,50663,0,734274,15817,0,0,0,
+115,,2021,MODESTO,5-022.02,Single Annual Report,Entire Basin,329100,44700,0,284400,0,0,0,0,
+81,,2021,TRACY,5-022.15,Single Annual Report,Entire Basin,31000,6800,1000,22000,0,600,0,1000,Remediation
+150,,2021,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,652448,27105,0,617161,0,0,0,8221,Rural Domestic
+"164,165,166,167,168,170",,2021,TULE,5-022.13,Multiple Annual Reports,Entire Basin,887530,18130,0,852100,0,0,0,17300,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+82,,2021,TURLOCK,5-022.03,Single Annual Report,Entire Basin,557200,43400,0,513800,0,0,0,0,
+156,,2021,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,632000,0,0,632000,0,0,0,130,Small water systems (48 AF) and Domestic wells (82 AF)
+158,,2021,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,68300,377,0,67923,0,0,0,0,
+193,,2022,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,409060,9360,0,399700,0,0,0,0,
+254,,2022,COSUMNES,5-022.16,Single Annual Report,Entire Basin,139300,4800,11000,123500,0,0,0,0,
+204,,2022,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,563900,21900,6400,501600,34000,0,0,0,
+253,,2022,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,19688,6500,0,13188,0,0,0,0,
+203,,2022,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,818507,43854,0,774653,0,0,0,0,
+257,,2022,KAWEAH,5-022.11,Single Annual Report,Entire Basin,925400,60400,21800,842700,0,11900,400,0,
+270,,2022,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,2343630,163032,0,1554176,0,520995,0,105428,"Banking Recovery, exchanges and pumpins"
+249,,2022,KINGS,5-022.08,Single Annual Report,Entire Basin,1943168,161904,0,1744599,0,59990,0,36665,JID Wells Pumped in McMullin GSA
+"196,236,262,269",,2022,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,676498,34133,0,642365,0,176,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+180,,2022,MERCED,5-022.04,Single Annual Report,Entire Basin,882399,51578,0,820521,10300,0,0,0,
+191,,2022,MODESTO,5-022.02,Single Annual Report,Entire Basin,364100,53300,0,310800,0,0,0,0,
+277,,2022,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,36500,0,0,36500,0,0,0,0,
+230,,2022,TRACY,5-022.15,Single Annual Report,Entire Basin,28586,3819,519,21691,0,1519,0,1038,Remediation
+255,,2022,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,549066,24160,0,516716,0,0,0,8190,Rural Domestic
+"258,263,264,266,267,268",,2022,TULE,5-022.13,Multiple Annual Reports,Entire Basin,719338,16898,0,662300,0,0,0,40140,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+225,,2022,TURLOCK,5-022.03,Single Annual Report,Entire Basin,554400,38200,0,516200,0,0,0,0,
+233,,2022,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,608000,0,0,608000,0,0,0,130,Small water systems (48 AF) and Domestic wells (82 AF)
+271,,2022,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,60200,569,0,59631,0,0,0,0,
+316,,2023,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,96080,3460,0,92620,0,0,0,0,
+312,,2023,COSUMNES,5-022.16,Single Annual Report,Entire Basin,121600,4700,11000,105900,0,0,0,0,
+331,,2023,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,231300,20700,5800,181300,20600,2900,0,0,
+343,,2023,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,116157,5599,0,31408,0,0,0,0,
+280,,2023,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,805994,41854,0,764140,0,0,0,0,
+334,,2023,KAWEAH,5-022.11,Single Annual Report,Entire Basin,308100,57200,21800,228600,0,316800,400,0,
+363,,2023,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,925464,157979,0,589169,0,174504,0,3811,"Lake Management, Use outside of Subbasin"
+339,,2023,KINGS,5-022.08,Single Annual Report,Entire Basin,863611,147089,0,716301,0,651277,0,221,JID Wells Pumped in McMullin GSA
+"317,321,329,376",,2023,MADERA,5-022.06,Multiple Annual Reports,Entire Basin,272226,23119,0,249107,0,0,0,0,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+309,,2023,MERCED,5-022.04,Single Annual Report,Entire Basin,706717,44843,0,654814,7060,0,0,0,
+297,,2023,MODESTO,5-022.02,Single Annual Report,Entire Basin,300300,48000,0,252300,0,0,0,0,
+372,,2023,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,32200,200,0,32000,0,0,0,0,
+318,,2023,TRACY,5-022.15,Single Annual Report,Entire Basin,8700,2500,700,3500,0,5800,0,2000,Remediation
+381,,2023,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,213863,22342,0,183491,0,0,0,8030,Rural Domestic
+"365,373,374,377,378,379",,2023,TULE,5-022.13,Multiple Annual Reports,Entire Basin,396810,20510,0,375500,0,0,0,4800,Explanations for individual Annual Reports are available on the SGMA Portal (https://sgma.water.ca.gov/portal/gspar/submitted).
+302,,2023,TURLOCK,5-022.03,Single Annual Report,Entire Basin,363900,35200,0,328700,0,0,0,0,
+353,,2023,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,65000,0,0,65000,0,161930,0,130,Small water systems (48 AF) and Domestic wells (82 AF)
+351,,2023,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,22600,1405,0,21195,0,0,1600,0,
+384,,2024,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,256000,5500,0,250500,0,0,0,0,
+409,,2024,COSUMNES,5-022.16,Single Annual Report,Entire Basin,120200,4800,11000,104400,0,0,0,0,
+456,,2024,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,278400,22200,6700,232800,16700,0,0,0,
+464,,2024,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,83400,7200,0,18200,0,0,0,0,
+385,,2024,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,799476,56650,0,742826,0,0,0,0,
+472,,2024,KAWEAH,5-022.11,Single Annual Report,Entire Basin,580500,59200,21800,499000,0,38300,400,0,
+430,,2024,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1179906,185830,0,946124,0,37623,0,10329,"Lake Management, Use outside of Subbasin"
+453,,2024,KINGS,5-022.08,Single Annual Report,Entire Basin,1256556,150474,0,1100042,0,200601,0,6040,JID Wells Pumped in McMullin GSA
+391,,2024,MADERA,5-022.06,Single Annual Report,Entire Basin,536400,25200,0,511200,0,0,0,0,
+405,,2024,MERCED,5-022.04,Single Annual Report,Entire Basin,569798,46358,0,510782,12658,0,0,0,
+412,,2024,MODESTO,5-022.02,Single Annual Report,Entire Basin,260800,50400,0,210400,0,0,0,0,
+401,,2024,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,28604,200,0,24143,0,3488,0,973,"Domestic Well Users, and Evaportaion Loss"
+413,,2024,TRACY,5-022.15,Single Annual Report,Entire Basin,11300,4400,300,7100,0,2700,0,2200,Remediation
+477,,2024,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,355005,24031,0,322942,0,0,0,8032,other water
+480,,2024,TULE,5-022.13,Single Annual Report,Entire Basin,559742,17242,0,534000,0,0,0,8500,Water used for export
+407,,2024,TURLOCK,5-022.03,Single Annual Report,Entire Basin,363000,32500,0,330500,0,0,0,0,
+473,,2024,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,82000,0,0,82000,0,0,0,130,Small water systems and domestic use
+439,,2024,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,30297,4,0,29472,0,0,821,0,
+500,,2025,CHOWCHILLA,5-022.05,Single Annual Report,Entire Basin,305800,6800,0,299000,0,0,0,0,
+566,,2025,COSUMNES,5-022.16,Single Annual Report,Entire Basin,123300,5000,11000,107300,0,0,0,0,
+484,,2025,DELTA-MENDOTA,5-022.07,Single Annual Report,Entire Basin,442300,21500,6800,396000,18000,0,0,0,
+573,,2025,EAST CONTRA COSTA,5-022.19,Single Annual Report,Entire Basin,57710,6732,0,50978,0,0,0,0,
+545,,2025,EASTERN SAN JOAQUIN,5-022.01,Single Annual Report,Entire Basin,801112,54610,0,749503,0,0,0,0,
+490,,2025,KAWEAH,5-022.11,Single Annual Report,Entire Basin,635000,59900,21500,553200,0,24200,400,0,
+537,,2025,KERN COUNTY,5-022.14,Single Annual Report,Entire Basin,1214614,160542,5973,856449,0,145826,0,45823,"Lake Management, Use outside of Subbasin"
+572,,2025,KINGS,5-022.08,Single Annual Report,Entire Basin,1555781,154235,0,1371193,0,96701,0,30353,JID Wells Pumped in McMullin GSA
+501,,2025,MADERA,5-022.06,Single Annual Report,Entire Basin,567900,29900,0,538000,0,0,0,0,
+487,,2025,MERCED,5-022.04,Single Annual Report,Entire Basin,652307,45364,0,596664,10278,0,0,0,
+489,,2025,MODESTO,5-022.02,Single Annual Report,Entire Basin,279800,47700,0,232100,0,0,0,0,
+568,,2025,PLEASANT VALLEY,5-022.10,Single Annual Report,Entire Basin,32381,200,0,27354,0,3942,0,1085,"Domestic Well Users, and Evaportaion Loss"
+554,,2025,TRACY,5-022.15,Single Annual Report,Entire Basin,8500,3621,90,2317,0,1734,0,2488,Remediation
+567,,2025,TULARE LAKE,5-022.12,Single Annual Report,Entire Basin,392833,24940,1704,357414,0,0,0,8775,other water
+574,,2025,TULE,5-022.13,Single Annual Report,Entire Basin,527820,16760,0,498360,0,0,0,12700,Water used for export
+535,,2025,TURLOCK,5-022.03,Single Annual Report,Entire Basin,392700,34200,0,358500,0,0,0,0,
+571,,2025,WESTSIDE,5-022.09,Single Annual Report,Entire Basin,52000,0,0,52000,0,0,0,130,Small water systems and domestic use
+556,,2025,WHITE WOLF,5-022.18,Single Annual Report,Entire Basin,31537,7,0,30630,0,0,900,0,

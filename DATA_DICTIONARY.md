@@ -1,0 +1,272 @@
+# Data Dictionary
+
+Scope: **San Joaquin Valley (Bulletin 118 basin 5-022)**. One row per record; columns as published by DWR (cleaned, SJV-filtered).
+
+## `groundwater_level_sites.csv`  (1785 rows)
+- `PROGRAM_TYPE`
+- `STN_ID`
+- `SITE_CODE`
+- `WELL_NAME`
+- `BASIN_NAME`
+- `GSP_ALT_BASIN_NAME`
+- `AGENCY`
+- `GSP_NAME`
+- `MONITORING_NETWORK_TYPE`
+- `SUSTAINABILITY_INDICATORS`
+- `PRINCIPAL_AQUIFER`
+- `SWN`
+- `WCR_NO`
+- `LATITUDE`
+- `LONGITUDE`
+- `WELL_USE`
+- `WELL_TYPE`
+- `WELL_DEPTH`
+- `TOP_PRF`
+- `BOT_PRF`
+- `LAST_GSE`
+- `LAST_RPE`
+- `SMC_START_DATE`
+- `SMC_MT`
+- `SMC_IM_5_YR`
+- `SMC_IM_10_YR`
+- `SMC_IM_15_YR`
+- `SMC_MO`
+- `COMMENTS`
+- `FIRST_MSMT_DATE`
+- `LAST_MSMT_DATE`
+- `LAST_NM_CODE`
+- `MSMT_COUNT`
+- `LAST_NM_DATE`
+
+## `groundwater_level_data.csv`  (123439 rows)
+- `STN_ID`
+- `SITE_CODE`
+- `WLM_ID`
+- `WELL_NAME`
+- `BASIN_NAME`
+- `GSA_NAME`
+- `GSP_NAME`
+- `MSMT_DATE`
+- `WLM_RPE`
+- `WLM_GSE`
+- `GWE`
+- `GSE_GWE`
+- `WLM_QA_DESC`
+- `WLM_DESC`
+- `WLM_ACC_DESC`
+- `MSMT_CMT`
+- `WLM_ORG_NAME`
+- `COOP_ORG_NAME`
+- `MONITORING_PROGRAM`
+
+## `subsidence_sites.csv`  (281 rows)
+- `PROGRAM_TYPE`
+- `GENERAL_SITE_ID` — DWR site id; join key between *_sites and *_data.
+- `LOCAL_SITE_NAME`
+- `SITE_TYPE` — Benchmark / Extensometer / Continuous GPS / Remote Sensing.
+- `BASIN_NAME`
+- `GSP_NAME`
+- `GSA_NAME`
+- `ALT_AGENCY_NAME`
+- `MONITORING_NETWORK_TYPE`
+- `SUSTAINABILITY_INDICATORS`
+- `PRINCIPAL_AQUIFER`
+- `STATE_WELL_NUMBER`
+- `RP_ELEVATION` — Reference/measuring-point elevation (survey basis; often 0/blank).
+- `RP_DESCRIPTION`
+- `RP_ELEVATION_SUBSURFACE`
+- `GS_ELEVATION` — Ground-surface elevation (survey basis).
+- `MEAS_METHOD` — How the measurement was taken (leveling, GPS, InSAR, etc.).
+- `MEAS_ACC`
+- `LATITUDE`
+- `LONGITUDE`
+- `DEPTH`
+- `CASED_DEPTH`
+- `DEPTH_TOP`
+- `DEPTH_BOTTOM`
+- `COUNTY`
+- `CREATED_DT`
+- `UPDATED_DT`
+
+## `subsidence_data.csv`  (25316 rows)
+- `PROGRAM_TYPE`
+- `GENERAL_SITE_ID` — DWR site id; join key between *_sites and *_data.
+- `LOCAL_SITE_NAME`
+- `BASIN_NAME`
+- `GSP_NAME`
+- `GSA_NAME`
+- `ALT_AGENCY_NAME`
+- `MONITORING_NETWORK_TYPE`
+- `DATE_OF_MEASUREMENT`
+- `CUM_DISPLACE_ELEV` — Cumulative vertical displacement since DATE_OF_DISPLACE_START (− = subsidence).
+- `DATE_OF_DISPLACE_START` — Baseline date the cumulative displacement is measured from (SURVEY BASIS).
+- `COMMENTS`
+- `NAME`
+- `CREATED_DT`
+- `UPDATED_DT`
+
+## `stream_gage_sites.csv`  (12 rows)
+- `PROGRAM_TYPE`
+- `GENERAL_SITE_ID` — DWR site id; join key between *_sites and *_data.
+- `LOCAL_SITE_NAME`
+- `SITE_TYPE` — Benchmark / Extensometer / Continuous GPS / Remote Sensing.
+- `BASIN_NAME`
+- `GSP_NAME`
+- `GSA_NAME`
+- `ALT_AGENCY_NAME`
+- `MONITORING_NETWORK_TYPE`
+- `SUSTAINABILITY_INDICATORS`
+- `PRINCIPAL_AQUIFER`
+- `STATE_WELL_NUMBER`
+- `RP_ELEVATION` — Reference/measuring-point elevation (survey basis; often 0/blank).
+- `RP_DESCRIPTION`
+- `RP_ELEVATION_SUBSURFACE`
+- `GS_ELEVATION` — Ground-surface elevation (survey basis).
+- `MEAS_METHOD` — How the measurement was taken (leveling, GPS, InSAR, etc.).
+- `MEAS_ACC`
+- `LATITUDE`
+- `LONGITUDE`
+- `DEPTH`
+- `CASED_DEPTH`
+- `DEPTH_TOP`
+- `DEPTH_BOTTOM`
+- `COUNTY`
+- `CREATED_DT`
+- `UPDATED_DT`
+
+## `stream_gage_data.csv`  (0 rows)
+- `PROGRAM_TYPE`
+- `GENERAL_SITE_ID` — DWR site id; join key between *_sites and *_data.
+- `LOCAL_SITE_NAME`
+- `BASIN_NAME`
+- `GSP_NAME`
+- `GSA_NAME`
+- `ALT_AGENCY_NAME`
+- `MONITORING_NETWORK_TYPE`
+- `DATE_OF_MEASUREMENT`
+- `CUM_DISPLACE_ELEV` — Cumulative vertical displacement since DATE_OF_DISPLACE_START (− = subsidence).
+- `DATE_OF_DISPLACE_START` — Baseline date the cumulative displacement is measured from (SURVEY BASIS).
+- `COMMENTS`
+- `NAME`
+- `CREATED_DT`
+- `UPDATED_DT`
+
+## `change_in_storage.csv`  (251 rows)
+- `GSPAR_ID`
+- `ALTAR_ID`
+- `REPORT_YEAR` — Annual report water year.
+- `BASIN_NAME`
+- `SUBBASIN_NUMBER` — Bulletin 118 subbasin number (e.g. 5-022.12).
+- `SINGLE_MULTIPLE_AR`
+- `ANNUAL_REPORT_AREA` — Reporting area (whole basin, or a specific GSP/GSA).
+- `AQUIFER_NAME`
+- `CHANGE_AMOUNT`
+- `CHANGE_IN_STORAGE_METHOD`
+
+## `change_in_storage_basin.csv`  (151 rows)
+- `GSPAR_IDS`
+- `ALTAR_IDS`
+- `REPORT_YEAR` — Annual report water year.
+- `BASIN_NAME`
+- `SUBBASIN_NUMBER` — Bulletin 118 subbasin number (e.g. 5-022.12).
+- `SINGLE_MULTIPLE_AR`
+- `ANNUAL_REPORT_AREA` — Reporting area (whole basin, or a specific GSP/GSA).
+- `CHANGE_AMOUNT`
+- `CHANGE_IN_STORAGE_METHOD`
+
+## `groundwater_extraction.csv`  (111 rows)
+- `GSPAR_IDS`
+- `ALTAR_ID`
+- `REPORT_YEAR` — Annual report water year.
+- `BASIN_NAME`
+- `SUBBASIN_NUMBER` — Bulletin 118 subbasin number (e.g. 5-022.12).
+- `SINGLE_MULTIPLE_AR`
+- `ANNUAL_REPORT_AREA` — Reporting area (whole basin, or a specific GSP/GSA).
+- `TOTAL_GROUNDWATER_EXTRACTIONS`
+- `WUS_URBAN`
+- `WUS_INDUSTRIAL`
+- `WUS_AGRICULTURAL`
+- `WUS_MANAGED_WETLANDS`
+- `WUS_MANAGED_RECHARGE`
+- `WUS_VEGETATION`
+- `WUS_OTHER`
+- `WUS_OTHER_EXPLANATION`
+
+## `groundwater_extraction_methods.csv`  (111 rows)
+- `GSPAR_IDS`
+- `ALTAR_ID`
+- `REPORT_YEAR` — Annual report water year.
+- `BASIN_NAME`
+- `SUBBASIN_NUMBER` — Bulletin 118 subbasin number (e.g. 5-022.12).
+- `SINGLE_MULTIPLE_AR`
+- `ANNUAL_REPORT_AREA` — Reporting area (whole basin, or a specific GSP/GSA).
+- `METERS_VOLUME`
+- `MTRS_METHOD_EXPLANATION`
+- `MTRS_TYPE`
+- `MTRS_ACCURACY`
+- `MTRS_ACCURACY_EXPLANATION`
+- `ERECORDS_VOLUME`
+- `ERECORDS_METHOD_EXPLANATION`
+- `ERECORDS_TYPE`
+- `ERECORDS_ACCURACY`
+- `ERECORDS_ACCURACY_EXPLANATION`
+- `LUSE_VOLUME`
+- `LUSE_METHOD_EXPLANATION`
+- `LUSE_TYPE`
+- `LUSE_ACCURACY`
+- `LUSE_ACCURACY_EXPLANATION`
+- `GW_MODEL_VOLUME`
+- `GW_MODEL_METHOD_EXPLANATION`
+- `GW_MODEL_TYPE`
+- `GW_MODEL_ACCURACY`
+- `GW_MODEL_ACCURACY_EXPLANATION`
+- `OTHER_VOLUME`
+- `OTHER_METHOD_EXPLANATION`
+- `OTHER_TYPE`
+- `OTHER_ACCURACY`
+- `OTHER_ACCURACY_EXPLANATION`
+
+## `surface_water_supply.csv`  (111 rows)
+- `GSPAR_IDS`
+- `ALTAR_ID`
+- `REPORT_YEAR` — Annual report water year.
+- `BASIN_NAME`
+- `SUBBASIN_NUMBER` — Bulletin 118 subbasin number (e.g. 5-022.12).
+- `SINGLE_MULTIPLE_AR`
+- `ANNUAL_REPORT_AREA` — Reporting area (whole basin, or a specific GSP/GSA).
+- `METHODS_USED`
+- `WST_CENTRAL_VALLEY_PROJECT`
+- `WST_STATE_WATER_PROJECT`
+- `WST_COLORADO_RIVER_PROJECT`
+- `WST_LOCAL_SUPPLIES`
+- `WST_LOCAL_IMPORTED_SUPPLIES`
+- `WST_DESALINATION`
+- `WST_RECYCLED_WATER`
+- `WST_OTHER`
+- `WST_OTHER_EXPLANATION`
+- `TOTAL_SURFACE_WATER`
+
+## `total_water_use.csv`  (111 rows)
+- `GSPAR_IDS`
+- `ALTAR_ID`
+- `REPORT_YEAR` — Annual report water year.
+- `BASIN_NAME`
+- `SUBBASIN_NUMBER` — Bulletin 118 subbasin number (e.g. 5-022.12).
+- `SINGLE_MULTIPLE_AR`
+- `ANNUAL_REPORT_AREA` — Reporting area (whole basin, or a specific GSP/GSA).
+- `METHOD_USED`
+- `TOTAL_WATER_USE`
+- `WST_EXPLANATION`
+- `WST_GROUNDWATER`
+- `WST_OTHER`
+- `WST_RECYCLED_WATER`
+- `WST_REUSED_WATER`
+- `WST_SURFACE_WATER`
+- `WUS_AGRICULTURAL`
+- `WUS_EXPLANATION`
+- `WUS_INDUSTRIAL`
+- `WUS_MANAGED_RECHARGE`
+- `WUS_MANAGED_WETLANDS`
+- `WUS_NATIVE_VEGETATION`
+- `WUS_OTHER`
+- `WUS_URBAN`

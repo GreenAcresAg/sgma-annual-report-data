@@ -1,0 +1,365 @@
+{
+  "scope": "San Joaquin Valley (Bulletin 118 basin 5-022)",
+  "datasets": {
+    "groundwater_level_sites": {
+      "rows_total": 7682,
+      "rows_in_scope": 1785,
+      "basin_fields": [
+        "BASIN_NAME",
+        "GSP_ALT_BASIN_NAME"
+      ],
+      "columns": [
+        "PROGRAM_TYPE",
+        "STN_ID",
+        "SITE_CODE",
+        "WELL_NAME",
+        "BASIN_NAME",
+        "GSP_ALT_BASIN_NAME",
+        "AGENCY",
+        "GSP_NAME",
+        "MONITORING_NETWORK_TYPE",
+        "SUSTAINABILITY_INDICATORS",
+        "PRINCIPAL_AQUIFER",
+        "SWN",
+        "WCR_NO",
+        "LATITUDE",
+        "LONGITUDE",
+        "WELL_USE",
+        "WELL_TYPE",
+        "WELL_DEPTH",
+        "TOP_PRF",
+        "BOT_PRF",
+        "LAST_GSE",
+        "LAST_RPE",
+        "SMC_START_DATE",
+        "SMC_MT",
+        "SMC_IM_5_YR",
+        "SMC_IM_10_YR",
+        "SMC_IM_15_YR",
+        "SMC_MO",
+        "COMMENTS",
+        "FIRST_MSMT_DATE",
+        "LAST_MSMT_DATE",
+        "LAST_NM_CODE",
+        "MSMT_COUNT",
+        "LAST_NM_DATE"
+      ]
+    },
+    "groundwater_level_data": {
+      "rows_total": 1812004,
+      "rows_in_scope": 123439,
+      "basin_fields": [
+        "BASIN_NAME"
+      ],
+      "columns": [
+        "STN_ID",
+        "SITE_CODE",
+        "WLM_ID",
+        "WELL_NAME",
+        "BASIN_NAME",
+        "GSA_NAME",
+        "GSP_NAME",
+        "MSMT_DATE",
+        "WLM_RPE",
+        "WLM_GSE",
+        "GWE",
+        "GSE_GWE",
+        "WLM_QA_DESC",
+        "WLM_DESC",
+        "WLM_ACC_DESC",
+        "MSMT_CMT",
+        "WLM_ORG_NAME",
+        "COOP_ORG_NAME",
+        "MONITORING_PROGRAM"
+      ]
+    },
+    "subsidence_sites": {
+      "rows_total": 315,
+      "rows_in_scope": 281,
+      "basin_fields": [
+        "BASIN_NAME"
+      ],
+      "columns": [
+        "PROGRAM_TYPE",
+        "GENERAL_SITE_ID",
+        "LOCAL_SITE_NAME",
+        "SITE_TYPE",
+        "BASIN_NAME",
+        "GSP_NAME",
+        "GSA_NAME",
+        "ALT_AGENCY_NAME",
+        "MONITORING_NETWORK_TYPE",
+        "SUSTAINABILITY_INDICATORS",
+        "PRINCIPAL_AQUIFER",
+        "STATE_WELL_NUMBER",
+        "RP_ELEVATION",
+        "RP_DESCRIPTION",
+        "RP_ELEVATION_SUBSURFACE",
+        "GS_ELEVATION",
+        "MEAS_METHOD",
+        "MEAS_ACC",
+        "LATITUDE",
+        "LONGITUDE",
+        "DEPTH",
+        "CASED_DEPTH",
+        "DEPTH_TOP",
+        "DEPTH_BOTTOM",
+        "COUNTY",
+        "CREATED_DT",
+        "UPDATED_DT"
+      ]
+    },
+    "subsidence_data": {
+      "rows_total": 25392,
+      "rows_in_scope": 25316,
+      "basin_fields": [
+        "BASIN_NAME"
+      ],
+      "columns": [
+        "PROGRAM_TYPE",
+        "GENERAL_SITE_ID",
+        "LOCAL_SITE_NAME",
+        "BASIN_NAME",
+        "GSP_NAME",
+        "GSA_NAME",
+        "ALT_AGENCY_NAME",
+        "MONITORING_NETWORK_TYPE",
+        "DATE_OF_MEASUREMENT",
+        "CUM_DISPLACE_ELEV",
+        "DATE_OF_DISPLACE_START",
+        "COMMENTS",
+        "NAME",
+        "CREATED_DT",
+        "UPDATED_DT"
+      ]
+    },
+    "stream_gage_sites": {
+      "rows_total": 82,
+      "rows_in_scope": 12,
+      "basin_fields": [
+        "BASIN_NAME"
+      ],
+      "columns": [
+        "PROGRAM_TYPE",
+        "GENERAL_SITE_ID",
+        "LOCAL_SITE_NAME",
+        "SITE_TYPE",
+        "BASIN_NAME",
+        "GSP_NAME",
+        "GSA_NAME",
+        "ALT_AGENCY_NAME",
+        "MONITORING_NETWORK_TYPE",
+        "SUSTAINABILITY_INDICATORS",
+        "PRINCIPAL_AQUIFER",
+        "STATE_WELL_NUMBER",
+        "RP_ELEVATION",
+        "RP_DESCRIPTION",
+        "RP_ELEVATION_SUBSURFACE",
+        "GS_ELEVATION",
+        "MEAS_METHOD",
+        "MEAS_ACC",
+        "LATITUDE",
+        "LONGITUDE",
+        "DEPTH",
+        "CASED_DEPTH",
+        "DEPTH_TOP",
+        "DEPTH_BOTTOM",
+        "COUNTY",
+        "CREATED_DT",
+        "UPDATED_DT"
+      ]
+    },
+    "stream_gage_data": {
+      "rows_total": 215663,
+      "rows_in_scope": 0,
+      "basin_fields": [
+        "BASIN_NAME"
+      ],
+      "columns": [
+        "PROGRAM_TYPE",
+        "GENERAL_SITE_ID",
+        "LOCAL_SITE_NAME",
+        "BASIN_NAME",
+        "GSP_NAME",
+        "GSA_NAME",
+        "ALT_AGENCY_NAME",
+        "MONITORING_NETWORK_TYPE",
+        "DATE_OF_MEASUREMENT",
+        "CUM_DISPLACE_ELEV",
+        "DATE_OF_DISPLACE_START",
+        "COMMENTS",
+        "NAME",
+        "CREATED_DT",
+        "UPDATED_DT"
+      ]
+    },
+    "change_in_storage": {
+      "rows_total": 999,
+      "rows_in_scope": 251,
+      "basin_fields": [
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER"
+      ],
+      "columns": [
+        "GSPAR_ID",
+        "ALTAR_ID",
+        "REPORT_YEAR",
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER",
+        "SINGLE_MULTIPLE_AR",
+        "ANNUAL_REPORT_AREA",
+        "AQUIFER_NAME",
+        "CHANGE_AMOUNT",
+        "CHANGE_IN_STORAGE_METHOD"
+      ]
+    },
+    "change_in_storage_basin": {
+      "rows_total": 631,
+      "rows_in_scope": 151,
+      "basin_fields": [
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER"
+      ],
+      "columns": [
+        "GSPAR_IDS",
+        "ALTAR_IDS",
+        "REPORT_YEAR",
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER",
+        "SINGLE_MULTIPLE_AR",
+        "ANNUAL_REPORT_AREA",
+        "CHANGE_AMOUNT",
+        "CHANGE_IN_STORAGE_METHOD"
+      ]
+    },
+    "groundwater_extraction": {
+      "rows_total": 584,
+      "rows_in_scope": 111,
+      "basin_fields": [
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER"
+      ],
+      "columns": [
+        "GSPAR_IDS",
+        "ALTAR_ID",
+        "REPORT_YEAR",
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER",
+        "SINGLE_MULTIPLE_AR",
+        "ANNUAL_REPORT_AREA",
+        "TOTAL_GROUNDWATER_EXTRACTIONS",
+        "WUS_URBAN",
+        "WUS_INDUSTRIAL",
+        "WUS_AGRICULTURAL",
+        "WUS_MANAGED_WETLANDS",
+        "WUS_MANAGED_RECHARGE",
+        "WUS_VEGETATION",
+        "WUS_OTHER",
+        "WUS_OTHER_EXPLANATION"
+      ]
+    },
+    "groundwater_extraction_methods": {
+      "rows_total": 584,
+      "rows_in_scope": 111,
+      "basin_fields": [
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER"
+      ],
+      "columns": [
+        "GSPAR_IDS",
+        "ALTAR_ID",
+        "REPORT_YEAR",
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER",
+        "SINGLE_MULTIPLE_AR",
+        "ANNUAL_REPORT_AREA",
+        "METERS_VOLUME",
+        "MTRS_METHOD_EXPLANATION",
+        "MTRS_TYPE",
+        "MTRS_ACCURACY",
+        "MTRS_ACCURACY_EXPLANATION",
+        "ERECORDS_VOLUME",
+        "ERECORDS_METHOD_EXPLANATION",
+        "ERECORDS_TYPE",
+        "ERECORDS_ACCURACY",
+        "ERECORDS_ACCURACY_EXPLANATION",
+        "LUSE_VOLUME",
+        "LUSE_METHOD_EXPLANATION",
+        "LUSE_TYPE",
+        "LUSE_ACCURACY",
+        "LUSE_ACCURACY_EXPLANATION",
+        "GW_MODEL_VOLUME",
+        "GW_MODEL_METHOD_EXPLANATION",
+        "GW_MODEL_TYPE",
+        "GW_MODEL_ACCURACY",
+        "GW_MODEL_ACCURACY_EXPLANATION",
+        "OTHER_VOLUME",
+        "OTHER_METHOD_EXPLANATION",
+        "OTHER_TYPE",
+        "OTHER_ACCURACY",
+        "OTHER_ACCURACY_EXPLANATION"
+      ]
+    },
+    "surface_water_supply": {
+      "rows_total": 584,
+      "rows_in_scope": 111,
+      "basin_fields": [
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER"
+      ],
+      "columns": [
+        "GSPAR_IDS",
+        "ALTAR_ID",
+        "REPORT_YEAR",
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER",
+        "SINGLE_MULTIPLE_AR",
+        "ANNUAL_REPORT_AREA",
+        "METHODS_USED",
+        "WST_CENTRAL_VALLEY_PROJECT",
+        "WST_STATE_WATER_PROJECT",
+        "WST_COLORADO_RIVER_PROJECT",
+        "WST_LOCAL_SUPPLIES",
+        "WST_LOCAL_IMPORTED_SUPPLIES",
+        "WST_DESALINATION",
+        "WST_RECYCLED_WATER",
+        "WST_OTHER",
+        "WST_OTHER_EXPLANATION",
+        "TOTAL_SURFACE_WATER"
+      ]
+    },
+    "total_water_use": {
+      "rows_total": 585,
+      "rows_in_scope": 111,
+      "basin_fields": [
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER"
+      ],
+      "columns": [
+        "GSPAR_IDS",
+        "ALTAR_ID",
+        "REPORT_YEAR",
+        "BASIN_NAME",
+        "SUBBASIN_NUMBER",
+        "SINGLE_MULTIPLE_AR",
+        "ANNUAL_REPORT_AREA",
+        "METHOD_USED",
+        "TOTAL_WATER_USE",
+        "WST_EXPLANATION",
+        "WST_GROUNDWATER",
+        "WST_OTHER",
+        "WST_RECYCLED_WATER",
+        "WST_REUSED_WATER",
+        "WST_SURFACE_WATER",
+        "WUS_AGRICULTURAL",
+        "WUS_EXPLANATION",
+        "WUS_INDUSTRIAL",
+        "WUS_MANAGED_RECHARGE",
+        "WUS_MANAGED_WETLANDS",
+        "WUS_NATIVE_VEGETATION",
+        "WUS_OTHER",
+        "WUS_URBAN"
+      ]
+    }
+  }
+}

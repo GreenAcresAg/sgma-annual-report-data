@@ -1,4 +1,4 @@
-report_year,subbasin,GSA,station_id,latitude,longitude,station_type,period,displacement_ft
+report_year,subbasin,GSA,station_id,latitude,longitude,station_type,metric,value
 WY2024,Tulare Lake,El Rico,SUB083,36.036209,-119.571581,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
 WY2024,Tulare Lake,El Rico,SUB083,36.036209,-119.571581,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.548
 WY2024,Tulare Lake,El Rico,SUB109,36.123381,-119.698447,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
@@ -75,3 +75,562 @@ WY2024,Tulare Lake,Tri-County Water Authority,SUB124,35.934116,-119.645005,bench
 WY2024,Tulare Lake,Tri-County Water Authority,SUB124,35.934116,-119.645005,benchmark surveyed,Fall 2023 to Fall 2024 (feet),-0.131
 WY2024,Tulare Lake,Tri-County Water Authority,SUB140,35.789746,-119.575621,,Fall 2022 to Fall 2023 (feet),
 WY2024,Tulare Lake,Tri-County Water Authority,SUB140,35.789746,-119.575621,,Fall 2023 to Fall 2024 (feet),
+WY2023,Kaweah,EKGSA,Dodge Ave. Check,439.75,,,2020 Elevation,439.75
+WY2023,Kaweah,EKGSA,Dodge Ave. Check,439.75,,,2023 Elevation,
+WY2023,Kaweah,EKGSA,Dodge Ave. Check,439.75,,,2024 Elevation,0
+WY2023,Kaweah,EKGSA,Dodge Ave. Check,439.75,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,EKGSA,Rocky Hill Check,0.00,,,2020 Elevation,429.55
+WY2023,Kaweah,EKGSA,Rocky Hill Check,0.00,,,2023 Elevation,429.59
+WY2023,Kaweah,EKGSA,Rocky Hill Check,0.00,,,2024 Elevation,429.55
+WY2023,Kaweah,EKGSA,Rocky Hill Check,0.00,,,WY2024 Subsidence1 (ft),0.02
+WY2023,Kaweah,EKGSA,Ave. 394 Bridge,0.04,,,2020 Elevation,439.88
+WY2023,Kaweah,EKGSA,Ave. 394 Bridge,0.04,,,2023 Elevation,439.88
+WY2023,Kaweah,EKGSA,Ave. 394 Bridge,0.04,,,2024 Elevation,439.84
+WY2023,Kaweah,EKGSA,Ave. 394 Bridge,0.04,,,WY2024 Subsidence1 (ft),0.03
+WY2023,Kaweah,EKGSA,Ave. 188 Bridge,0.05,,,2020 Elevation,421.04
+WY2023,Kaweah,EKGSA,Ave. 188 Bridge,0.05,,,2023 Elevation,421.01
+WY2023,Kaweah,EKGSA,Ave. 188 Bridge,0.05,,,2024 Elevation,420.99
+WY2023,Kaweah,EKGSA,Ave. 188 Bridge,0.05,,,WY2024 Subsidence1 (ft),0.01
+WY2023,Kaweah,EKGSA,5th Ave. Check,0.09,,,2020 Elevation,423.12
+WY2023,Kaweah,EKGSA,5th Ave. Check,0.09,,,2023 Elevation,423.06
+WY2023,Kaweah,EKGSA,5th Ave. Check,0.09,,,2024 Elevation,423.03
+WY2023,Kaweah,EKGSA,5th Ave. Check,0.09,,,WY2024 Subsidence1 (ft),0.01
+WY2023,Kaweah,Cal Trans,DH6686,0.547,,,2020 Elevation,318.97
+WY2023,Kaweah,Cal Trans,DH6686,0.547,,,2023 Elevation,318.52
+WY2023,Kaweah,Cal Trans,DH6686,0.547,,,2024 Elevation,318.423
+WY2023,Kaweah,Cal Trans,DH6686,0.547,,,WY2024 Subsidence1 (ft),0.095
+WY2023,Kaweah,Cal Trans,DH6691,-,,,2020 Elevation,
+WY2023,Kaweah,Cal Trans,DH6691,-,,,2023 Elevation,
+WY2023,Kaweah,Cal Trans,DH6691,-,,,2024 Elevation,
+WY2023,Kaweah,Cal Trans,DH6691,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,Cal Trans,DH6719,-,,,2020 Elevation,
+WY2023,Kaweah,Cal Trans,DH6719,-,,,2023 Elevation,
+WY2023,Kaweah,Cal Trans,DH6719,-,,,2024 Elevation,
+WY2023,Kaweah,Cal Trans,DH6719,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,Cal Trans,DH6739,1.191,,,2020 Elevation,255.65
+WY2023,Kaweah,Cal Trans,DH6739,1.191,,,2023 Elevation,254.45
+WY2023,Kaweah,Cal Trans,DH6739,1.191,,,2024 Elevation,254.459
+WY2023,Kaweah,Cal Trans,DH6739,1.191,,,WY2024 Subsidence1 (ft),-0.009
+WY2023,Kaweah,Cal Trans,GT2135,-,,,2020 Elevation,
+WY2023,Kaweah,Cal Trans,GT2135,-,,,2023 Elevation,
+WY2023,Kaweah,Cal Trans,GT2135,-,,,2024 Elevation,
+WY2023,Kaweah,Cal Trans,GT2135,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,KDWCD,K001,-0.1,,,2020 Elevation,462.45
+WY2023,Kaweah,KDWCD,K001,-0.1,,,2023 Elevation,462.51
+WY2023,Kaweah,KDWCD,K001,-0.1,,,2024 Elevation,462.55
+WY2023,Kaweah,KDWCD,K001,-0.1,,,WY2024 Subsidence1 (ft),-0.04
+WY2023,Kaweah,KDWCD,K003,-0.15,,,2020 Elevation,363.71
+WY2023,Kaweah,KDWCD,K003,-0.15,,,2023 Elevation,363.72
+WY2023,Kaweah,KDWCD,K003,-0.15,,,2024 Elevation,363.86
+WY2023,Kaweah,KDWCD,K003,-0.15,,,WY2024 Subsidence1 (ft),-0.145
+WY2023,Kaweah,KDWCD,K00X,-,,,2020 Elevation,
+WY2023,Kaweah,KDWCD,K00X,-,,,2023 Elevation,
+WY2023,Kaweah,KDWCD,K00X,-,,,2024 Elevation,
+WY2023,Kaweah,KDWCD,K00X,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,KDWCD,K012,2.32,,,2020 Elevation,223.1
+WY2023,Kaweah,KDWCD,K012,2.32,,,2023 Elevation,221.25
+WY2023,Kaweah,KDWCD,K012,2.32,,,2024 Elevation,220.78
+WY2023,Kaweah,KDWCD,K012,2.32,,,WY2024 Subsidence1 (ft),0.467
+WY2023,Kaweah,KDWCD,K015,0.59,,,2020 Elevation,298.28
+WY2023,Kaweah,KDWCD,K015,0.59,,,2023 Elevation,297.67
+WY2023,Kaweah,KDWCD,K015,0.59,,,2024 Elevation,297.69
+WY2023,Kaweah,KDWCD,K015,0.59,,,WY2024 Subsidence1 (ft),-0.021
+WY2023,Kaweah,KDWCD,K016,1.18,,,2020 Elevation,335.16
+WY2023,Kaweah,KDWCD,K016,1.18,,,2023 Elevation,334.28
+WY2023,Kaweah,KDWCD,K016,1.18,,,2024 Elevation,333.98
+WY2023,Kaweah,KDWCD,K016,1.18,,,WY2024 Subsidence1 (ft),0.302
+WY2023,Kaweah,KDWCD,K02A1,-,,,2020 Elevation,414.68
+WY2023,Kaweah,KDWCD,K02A1,-,,,2023 Elevation,414.83
+WY2023,Kaweah,KDWCD,K02A1,-,,,2024 Elevation,
+WY2023,Kaweah,KDWCD,K02A1,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,CHSTP,S228,-,,,2020 Elevation,219.3
+WY2023,Kaweah,CHSTP,S228,-,,,2023 Elevation,217.32
+WY2023,Kaweah,CHSTP,S228,-,,,2024 Elevation,
+WY2023,Kaweah,CHSTP,S228,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,Cal Trans,DH6683,-,,,2020 Elevation,218.28
+WY2023,Kaweah,Cal Trans,DH6683,-,,,2023 Elevation,
+WY2023,Kaweah,Cal Trans,DH6683,-,,,2024 Elevation,
+WY2023,Kaweah,Cal Trans,DH6683,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,Cal Trans,DH6770,-,,,2020 Elevation,
+WY2023,Kaweah,Cal Trans,DH6770,-,,,2023 Elevation,
+WY2023,Kaweah,Cal Trans,DH6770,-,,,2024 Elevation,
+WY2023,Kaweah,Cal Trans,DH6770,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,KDWCD,K007,0.86,,,2020 Elevation,293.43
+WY2023,Kaweah,KDWCD,K007,0.86,,,2023 Elevation,292.64
+WY2023,Kaweah,KDWCD,K007,0.86,,,2024 Elevation,292.57
+WY2023,Kaweah,KDWCD,K007,0.86,,,WY2024 Subsidence1 (ft),0.07
+WY2023,Kaweah,KDWCD,K008,1.84,,,2020 Elevation,250.73
+WY2023,Kaweah,KDWCD,K008,1.84,,,2023 Elevation,248.90
+WY2023,Kaweah,KDWCD,K008,1.84,,,2024 Elevation,248.89
+WY2023,Kaweah,KDWCD,K008,1.84,,,WY2024 Subsidence1 (ft),0.01
+WY2023,Kaweah,KDWCD,K009,2.46,,,2020 Elevation,238.06
+WY2023,Kaweah,KDWCD,K009,2.46,,,2023 Elevation,235.46
+WY2023,Kaweah,KDWCD,K009,2.46,,,2024 Elevation,235.60
+WY2023,Kaweah,KDWCD,K009,2.46,,,WY2024 Subsidence1 (ft),-0.14
+WY2023,Kaweah,KDWCD,K010,2.11,,,2020 Elevation,208.84
+WY2023,Kaweah,KDWCD,K010,2.11,,,2023 Elevation,206.68
+WY2023,Kaweah,KDWCD,K010,2.11,,,2024 Elevation,206.73
+WY2023,Kaweah,KDWCD,K010,2.11,,,WY2024 Subsidence1 (ft),-0.05
+WY2023,Kaweah,KDWCD,K014,1.58,,,2020 Elevation,294.07
+WY2023,Kaweah,KDWCD,K014,1.58,,,2023 Elevation,293.12
+WY2023,Kaweah,KDWCD,K014,1.58,,,2024 Elevation,292.49
+WY2023,Kaweah,KDWCD,K014,1.58,,,WY2024 Subsidence1 (ft),0.63
+WY2023,Kaweah,KDWCD,P5663,-,,,2020 Elevation,
+WY2023,Kaweah,KDWCD,P5663,-,,,2023 Elevation,
+WY2023,Kaweah,KDWCD,P5663,-,,,2024 Elevation,
+WY2023,Kaweah,KDWCD,P5663,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,KDWCD,TID1,-,,,2020 Elevation,
+WY2023,Kaweah,KDWCD,TID1,-,,,2023 Elevation,
+WY2023,Kaweah,KDWCD,TID1,-,,,2024 Elevation,
+WY2023,Kaweah,KDWCD,TID1,-,,,WY2024 Subsidence1 (ft),
+WY2023,Kaweah,KDWCD,TUL99,-,,,2020 Elevation,
+WY2023,Kaweah,KDWCD,TUL99,-,,,2023 Elevation,
+WY2023,Kaweah,KDWCD,TUL99,-,,,2024 Elevation,
+WY2023,Kaweah,KDWCD,TUL99,-,,,WY2024 Subsidence1 (ft),
+unknown,Tule,,L0001_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0001_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.1
+unknown,Tule,,L0002_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0002_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0003_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0003_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.8
+unknown,Tule,,L0004_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0004_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.7
+unknown,Tule,,L0005_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0005_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.2
+unknown,Tule,,L0006_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0006_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.3
+unknown,Tule,,L0007_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0007_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.0
+unknown,Tule,,L0008_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0008_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.8
+unknown,Tule,,L0009_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0009_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.9
+unknown,Tule,,L0010_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0010_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.8
+unknown,Tule,,L0011_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0011_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.0
+unknown,Tule,,L0012_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0012_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.7
+unknown,Tule,,L0013_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0013_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.9
+unknown,Tule,,L0014_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0014_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.7
+unknown,Tule,,L0015_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0015_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.7
+unknown,Tule,,L0016_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0016_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.0
+unknown,Tule,,L0017_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0017_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.7
+unknown,Tule,,L0018_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0018_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.8
+unknown,Tule,,L0019_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0019_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0020_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0020_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.0
+unknown,Tule,,L0021_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0021_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0022_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0022_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.7
+unknown,Tule,,L0023_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0023_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0024_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0024_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0025_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0025_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0026_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0026_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0027_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0027_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.8
+unknown,Tule,,L0028_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0028_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.7
+unknown,Tule,,L0029_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0029_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0030_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0030_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,L0031_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0031_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.5
+unknown,Tule,,L0032_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,L0032_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.2
+unknown,Tule,,T0054_InSAR,,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,
+unknown,Tule,,T0054_InSAR,,,,Allowable Land Subsidence between 2024 and 2040 2.4,
+unknown,Tule,,T0055_InSAR T0056_InSAR,0.0 0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,
+unknown,Tule,,T0055_InSAR T0056_InSAR,0.0 0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,2.8
+unknown,Tule,,T0057_InSAR,0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,0.0
+unknown,Tule,,T0057_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,2.7
+unknown,Tule,,T0058_InSAR,0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,0.0
+unknown,Tule,,T0058_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,4.7
+unknown,Tule,,T0059_InSAR,0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,0.0
+unknown,Tule,,T0059_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,6.9
+unknown,Tule,,T0060_InSAR T0061_InSAR T0062_InSAR T0063_InSAR,0.0 0.0 0.0 0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,
+unknown,Tule,,T0060_InSAR T0061_InSAR T0062_InSAR T0063_InSAR,0.0 0.0 0.0 0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,
+unknown,Tule,,T0064_InSAR T0065_InSAR T0066_InSAR T0067_InSAR T0068_InSAR T0069_InSAR T0070_InSAR T0071_InSAR T0072_InSAR,0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,
+unknown,Tule,,T0064_InSAR T0065_InSAR T0066_InSAR T0067_InSAR T0068_InSAR T0069_InSAR T0070_InSAR T0071_InSAR T0072_InSAR,0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,
+unknown,Tule,,T0073_InSAR,0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,0.0
+unknown,Tule,,T0073_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,1.0
+unknown,Tule,,T0074_InSAR T0075_InSAR T0076_InSAR,0.0 0.0 0.0,,,Land Subsidence - InSAR Data (ft) Oct 2023 to Jan 2020 to Jan 2020 Sep 2024 Sep 2024,
+unknown,Tule,,T0074_InSAR T0075_InSAR T0076_InSAR,0.0 0.0 0.0,,,Allowable Land Subsidence between 2024 and 2040 2.4,4.4
+unknown,Tule,,K0090_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,K0090_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.4
+unknown,Tule,,K0091_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,K0091_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.4
+unknown,Tule,,TP0050_InSAR TP0051_InSAR TP0052_InSAR TP0053_InSAR,0.0 0.0 0.0 0.0,,,Allowable Land Subsidence between 2024 and 2040,1.1
+unknown,Tule,,V0048_InSAR V0049_InSAR,0.0 0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,E0051_B_FKC,36.065720,-119.107738,,2023 Elevation (ft amsl),396.63
+unknown,Tule,,E0051_B_FKC,36.065720,-119.107738,,2024 Elevation (ft amsl),396.66
+unknown,Tule,,E0051_B_FKC,36.065720,-119.107738,,2023 to 2024 Subsidence (ft),-0.03
+unknown,Tule,,E0053_B_FKC,35.978021,-119.107469,,2023 Elevation (ft amsl),399.16
+unknown,Tule,,E0053_B_FKC,35.978021,-119.107469,,2024 Elevation (ft amsl),398.94
+unknown,Tule,,E0053_B_FKC,35.978021,-119.107469,,2023 to 2024 Subsidence (ft),0.22
+unknown,Tule,,E0056_G_FKC,36.080733,-119.083891,,2023 Elevation (ft amsl),406.64
+unknown,Tule,,E0056_G_FKC,36.080733,-119.083891,,2024 Elevation (ft amsl),406.82
+unknown,Tule,,E0056_G_FKC,36.080733,-119.083891,,2023 to 2024 Subsidence (ft),-0.18
+unknown,Tule,,E0057_B_FKC,36.065853,-119.101469,,2023 Elevation (ft amsl),399.01
+unknown,Tule,,E0057_B_FKC,36.065853,-119.101469,,2024 Elevation (ft amsl),398.89
+unknown,Tule,,E0057_B_FKC,36.065853,-119.101469,,2023 to 2024 Subsidence (ft),0.12
+unknown,Tule,,E0058_B_FKC,36.046115,-119.088891,,2023 Elevation (ft amsl),407.12
+unknown,Tule,,E0058_B_FKC,36.046115,-119.088891,,2024 Elevation (ft amsl),407.11
+unknown,Tule,,E0058_B_FKC,36.046115,-119.088891,,2023 to 2024 Subsidence (ft),0.01
+unknown,Tule,,E0059_B_FKC,36.023157,-119.080043,,2023 Elevation (ft amsl),417.02
+unknown,Tule,,E0059_B_FKC,36.023157,-119.080043,,2024 Elevation (ft amsl),416.84
+unknown,Tule,,E0059_B_FKC,36.023157,-119.080043,,2023 to 2024 Subsidence (ft),0.18
+unknown,Tule,,E0060_B_FKC,36.022253,-119.104147,,2023 Elevation (ft amsl),392.93
+unknown,Tule,,E0060_B_FKC,36.022253,-119.104147,,2024 Elevation (ft amsl),392.66
+unknown,Tule,,E0060_B_FKC,36.022253,-119.104147,,2023 to 2024 Subsidence (ft),0.27
+unknown,Tule,,E0061_B_FKC,36.007748,-119.095966,,2023 Elevation (ft amsl),402.93
+unknown,Tule,,E0061_B_FKC,36.007748,-119.095966,,2024 Elevation (ft amsl),402.94
+unknown,Tule,,E0061_B_FKC,36.007748,-119.095966,,2023 to 2024 Subsidence (ft),-0.01
+unknown,Tule,,E0062_B_FKC,35.993320,-119.107673,,2023 Elevation (ft amsl),
+unknown,Tule,,E0062_B_FKC,35.993320,-119.107673,,2024 Elevation (ft amsl),
+unknown,Tule,,E0062_B_FKC,35.993320,-119.107673,,2023 to 2024 Subsidence (ft),
+unknown,Tule,,E0063_G_FKC,35.978046,-119.106731,,2023 Elevation (ft amsl),402.39
+unknown,Tule,,E0063_G_FKC,35.978046,-119.106731,,2024 Elevation (ft amsl),402.30
+unknown,Tule,,E0063_G_FKC,35.978046,-119.106731,,2023 to 2024 Subsidence (ft),0.09
+unknown,Tule,,E0064_B_FKC,35.977592,-119.107239,,2023 Elevation (ft amsl),400.06
+unknown,Tule,,E0064_B_FKC,35.977592,-119.107239,,2024 Elevation (ft amsl),400.01
+unknown,Tule,,E0064_B_FKC,35.977592,-119.107239,,2023 to 2024 Subsidence (ft),0.05
+unknown,Tule,,E0065_B_FKC,35.964394,-119.107485,,2023 Elevation (ft amsl),399.86
+unknown,Tule,,E0065_B_FKC,35.964394,-119.107485,,2024 Elevation (ft amsl),399.51
+unknown,Tule,,E0065_B_FKC,35.964394,-119.107485,,2023 to 2024 Subsidence (ft),0.35
+unknown,Tule,,E0114_B_FKC,35.964338,-119.110823,,2023 Elevation (ft amsl),392.66
+unknown,Tule,,E0114_B_FKC,35.964338,-119.110823,,2024 Elevation (ft amsl),392.55
+unknown,Tule,,E0114_B_FKC,35.964338,-119.110823,,2023 to 2024 Subsidence (ft),0.11
+unknown,Tule,,E0066_B_FKC,35.964278,-119.097250,,2023 Elevation (ft amsl),411.00
+unknown,Tule,,E0066_B_FKC,35.964278,-119.097250,,2024 Elevation (ft amsl),410.83
+unknown,Tule,,E0066_B_FKC,35.964278,-119.097250,,2023 to 2024 Subsidence (ft),0.17
+unknown,Tule,,E0067_B_FKC,35.949757,-119.107021,,2023 Elevation (ft amsl),407.04
+unknown,Tule,,E0067_B_FKC,35.949757,-119.107021,,2024 Elevation (ft amsl),406.77
+unknown,Tule,,E0067_B_FKC,35.949757,-119.107021,,2023 to 2024 Subsidence (ft),0.27
+unknown,Tule,,E0068_B_FKC,35.942592,-119.128878,,2023 Elevation (ft amsl),
+unknown,Tule,,E0068_B_FKC,35.942592,-119.128878,,2024 Elevation (ft amsl),
+unknown,Tule,,E0068_B_FKC,35.942592,-119.128878,,2023 to 2024 Subsidence (ft),
+unknown,Tule,,E0069_B_FKC,35.928049,-119.137364,,2023 Elevation (ft amsl),
+unknown,Tule,,E0069_B_FKC,35.928049,-119.137364,,2024 Elevation (ft amsl),
+unknown,Tule,,E0069_B_FKC,35.928049,-119.137364,,2023 to 2024 Subsidence (ft),
+unknown,Tule,,E0089_B_LSMA,35.949882,-119.121121,,2023 Elevation (ft amsl),404.21
+unknown,Tule,,E0089_B_LSMA,35.949882,-119.121121,,2024 Elevation (ft amsl),404.13
+unknown,Tule,,E0089_B_LSMA,35.949882,-119.121121,,2023 to 2024 Subsidence (ft),0.08
+unknown,Tule,,E0090_B_LSMA,35.935379,-119.133460,,2023 Elevation (ft amsl),404.15
+unknown,Tule,,E0090_B_LSMA,35.935379,-119.133460,,2024 Elevation (ft amsl),404.16
+unknown,Tule,,E0090_B_LSMA,35.935379,-119.133460,,2023 to 2024 Subsidence (ft),-0.01
+unknown,Tule,,E0091_B_LSMA,35.964221,-119.125305,,2023 Elevation (ft amsl),378.29
+unknown,Tule,,E0091_B_LSMA,35.964221,-119.125305,,2024 Elevation (ft amsl),378.16
+unknown,Tule,,E0091_B_LSMA,35.964221,-119.125305,,2023 to 2024 Subsidence (ft),0.13
+unknown,Tule,,E0092_B_LSMA,35.949994,-119.144013,,2023 Elevation (ft amsl),372.33
+unknown,Tule,,E0092_B_LSMA,35.949994,-119.144013,,2024 Elevation (ft amsl),372.28
+unknown,Tule,,E0092_B_LSMA,35.949994,-119.144013,,2023 to 2024 Subsidence (ft),0.05
+unknown,Tule,,E0093_B_LSMA,35.935268,-119.109074,,2023 Elevation (ft amsl),416.07
+unknown,Tule,,E0093_B_LSMA,35.935268,-119.109074,,2024 Elevation (ft amsl),415.90
+unknown,Tule,,E0093_B_LSMA,35.935268,-119.109074,,2023 to 2024 Subsidence (ft),0.17
+unknown,Tule,,E0094_B_LSMA,35.942736,-119.107482,,2023 Elevation (ft amsl),408.82
+unknown,Tule,,E0094_B_LSMA,35.942736,-119.107482,,2024 Elevation (ft amsl),408.80
+unknown,Tule,,E0094_B_LSMA,35.942736,-119.107482,,2023 to 2024 Subsidence (ft),0.02
+unknown,Tule,,E0095_B_LSMA,35.949595,-119.089902,,2023 Elevation (ft amsl),420.67
+unknown,Tule,,E0095_B_LSMA,35.949595,-119.089902,,2024 Elevation (ft amsl),420.64
+unknown,Tule,,E0095_B_LSMA,35.949595,-119.089902,,2023 to 2024 Subsidence (ft),0.03
+unknown,Tule,,E0096_B_LSMA,35.950024,-119.152902,,2023 Elevation (ft amsl),363.56
+unknown,Tule,,E0096_B_LSMA,35.950024,-119.152902,,2024 Elevation (ft amsl),363.33
+unknown,Tule,,E0096_B_LSMA,35.950024,-119.152902,,2023 to 2024 Subsidence (ft),0.23
+unknown,Tule,,E0097_B_LSMA,35.949814,-119.134855,,2023 Elevation (ft amsl),378.70
+unknown,Tule,,E0097_B_LSMA,35.949814,-119.134855,,2024 Elevation (ft amsl),378.57
+unknown,Tule,,E0097_B_LSMA,35.949814,-119.134855,,2023 to 2024 Subsidence (ft),0.13
+unknown,Tule,,E0098_B_LSMA,35.993449,-119.125472,,2023 Elevation (ft amsl),381.37
+unknown,Tule,,E0098_B_LSMA,35.993449,-119.125472,,2024 Elevation (ft amsl),381.27
+unknown,Tule,,E0098_B_LSMA,35.993449,-119.125472,,2023 to 2024 Subsidence (ft),0.10
+unknown,Tule,,E0099_B_LSMA,35.993207,-119.089254,,2023 Elevation (ft amsl),413.52
+unknown,Tule,,E0099_B_LSMA,35.993207,-119.089254,,2024 Elevation (ft amsl),413.36
+unknown,Tule,,E0099_B_LSMA,35.993207,-119.089254,,2023 to 2024 Subsidence (ft),0.16
+unknown,Tule,,E0100_B_LSMA,35.978766,-119.125347,,2023 Elevation (ft amsl),381.88
+unknown,Tule,,E0100_B_LSMA,35.978766,-119.125347,,2024 Elevation (ft amsl),381.87
+unknown,Tule,,E0100_B_LSMA,35.978766,-119.125347,,2023 to 2024 Subsidence (ft),0.01
+unknown,Tule,,E0101_B_LSMA,35.978970,-119.116649,,2023 Elevation (ft amsl),388.03
+unknown,Tule,,E0101_B_LSMA,35.978970,-119.116649,,2024 Elevation (ft amsl),387.95
+unknown,Tule,,E0101_B_LSMA,35.978970,-119.116649,,2023 to 2024 Subsidence (ft),0.08
+unknown,Tule,,E0102_B_LSMA,36.007968,-119.125503,,2023 Elevation (ft amsl),382.69
+unknown,Tule,,E0102_B_LSMA,36.007968,-119.125503,,2024 Elevation (ft amsl),382.70
+unknown,Tule,,E0102_B_LSMA,36.007968,-119.125503,,2023 to 2024 Subsidence (ft),-0.01
+unknown,Tule,,E0103_B_LSMA,36.007749,-119.116638,,2023 Elevation (ft amsl),389.14
+unknown,Tule,,E0103_B_LSMA,36.007749,-119.116638,,2024 Elevation (ft amsl),389.01
+unknown,Tule,,E0103_B_LSMA,36.007749,-119.116638,,2023 to 2024 Subsidence (ft),0.13
+unknown,Tule,,E0104_B_LSMA,35.935325,-119.143992,,2023 Elevation (ft amsl),379.53
+unknown,Tule,,E0104_B_LSMA,35.935325,-119.143992,,2024 Elevation (ft amsl),379.55
+unknown,Tule,,E0104_B_LSMA,35.935325,-119.143992,,2023 to 2024 Subsidence (ft),-0.02
+unknown,Tule,,E0105_B_LSMA,36.051229,-119.097278,,2023 Elevation (ft amsl),411.95
+unknown,Tule,,E0105_B_LSMA,36.051229,-119.097278,,2024 Elevation (ft amsl),412.02
+unknown,Tule,,E0105_B_LSMA,36.051229,-119.097278,,2023 to 2024 Subsidence (ft),-0.07
+unknown,Tule,,E0106_B_LSMA,36.022501,-119.125537,,2023 Elevation (ft amsl),381.93
+unknown,Tule,,E0106_B_LSMA,36.022501,-119.125537,,2024 Elevation (ft amsl),381.76
+unknown,Tule,,E0106_B_LSMA,36.022501,-119.125537,,2023 to 2024 Subsidence (ft),0.17
+unknown,Tule,,E0107_B_LSMA,36.022307,-119.089109,,2023 Elevation (ft amsl),408.89
+unknown,Tule,,E0107_B_LSMA,36.022307,-119.089109,,2024 Elevation (ft amsl),408.76
+unknown,Tule,,E0107_B_LSMA,36.022307,-119.089109,,2023 to 2024 Subsidence (ft),0.13
+unknown,Tule,,E0108_B_LSMA,36.051111,-119.116205,,2023 Elevation (ft amsl),389.49
+unknown,Tule,,E0108_B_LSMA,36.051111,-119.116205,,2024 Elevation (ft amsl),389.60
+unknown,Tule,,E0108_B_LSMA,36.051111,-119.116205,,2023 to 2024 Subsidence (ft),-0.11
+unknown,Tule,,E0109_B_LSMA,36.051318,-119.071165,,2023 Elevation (ft amsl),421.11
+unknown,Tule,,E0109_B_LSMA,36.051318,-119.071165,,2024 Elevation (ft amsl),420.97
+unknown,Tule,,E0109_B_LSMA,36.051318,-119.071165,,2023 to 2024 Subsidence (ft),0.14
+unknown,Tule,,E0110_B_LSMA,35.935271,-119.116447,,2023 Elevation (ft amsl),409.44
+unknown,Tule,,E0110_B_LSMA,35.935271,-119.116447,,2024 Elevation (ft amsl),409.51
+unknown,Tule,,E0110_B_LSMA,35.935271,-119.116447,,2023 to 2024 Subsidence (ft),-0.07
+unknown,Tule,,E0111_B_LSMA,35.964213,-119.085094,,2023 Elevation (ft amsl),424.61
+unknown,Tule,,E0111_B_LSMA,35.964213,-119.085094,,2024 Elevation (ft amsl),424.24
+unknown,Tule,,E0111_B_LSMA,35.964213,-119.085094,,2023 to 2024 Subsidence (ft),0.37
+unknown,Tule,,E0112_B_LSMA,36.004220,-119.071361,,2023 Elevation (ft amsl),416.91
+unknown,Tule,,E0112_B_LSMA,36.004220,-119.071361,,2024 Elevation (ft amsl),416.93
+unknown,Tule,,E0112_B_LSMA,36.004220,-119.071361,,2023 to 2024 Subsidence (ft),-0.02
+unknown,Tule,,E0113_B_LSMA,36.036668,-119.079912,,2023 Elevation (ft amsl),416.27
+unknown,Tule,,E0113_B_LSMA,36.036668,-119.079912,,2024 Elevation (ft amsl),416.03
+unknown,Tule,,E0113_B_LSMA,36.036668,-119.079912,,2023 to 2024 Subsidence (ft),0.24
+unknown,Tule,,P0095_B_LSMA,35.939497,-119.161718,,2023 Elevation (ft amsl),360.59
+unknown,Tule,,P0095_B_LSMA,35.939497,-119.161718,,2024 Elevation (ft amsl),360.48
+unknown,Tule,,P0095_B_LSMA,35.939497,-119.161718,,2023 to 2024 Subsidence (ft),0.11
+unknown,Tule,,E0115_B_LSMA,35.978820,-119.134400,,2023 Elevation (ft amsl),372.52
+unknown,Tule,,E0115_B_LSMA,35.978820,-119.134400,,2024 Elevation (ft amsl),372.54
+unknown,Tule,,E0115_B_LSMA,35.978820,-119.134400,,2023 to 2024 Subsidence (ft),-0.02
+unknown,Tule,,E0116_B_LSMA,35.986050,-119.143410,,2023 Elevation (ft amsl),364.95
+unknown,Tule,,E0116_B_LSMA,35.986050,-119.143410,,2024 Elevation (ft amsl),365.02
+unknown,Tule,,E0116_B_LSMA,35.986050,-119.143410,,2023 to 2024 Subsidence (ft),-0.07
+unknown,Tule,,E0117_B_LSMA,35.987090,-119.179020,,2023 Elevation (ft amsl),338.24
+unknown,Tule,,E0117_B_LSMA,35.987090,-119.179020,,2024 Elevation (ft amsl),337.87
+unknown,Tule,,E0117_B_LSMA,35.987090,-119.179020,,2023 to 2024 Subsidence (ft),0.37
+unknown,Tule,,E0118_B_LSMA,35.974080,-119.178860,,2023 Elevation (ft amsl),341.75
+unknown,Tule,,E0118_B_LSMA,35.974080,-119.178860,,2024 Elevation (ft amsl),341.71
+unknown,Tule,,E0118_B_LSMA,35.974080,-119.178860,,2023 to 2024 Subsidence (ft),0.04
+unknown,Tule,,E0119_B_LSMA,35.964300,-119.169890,,2023 Elevation (ft amsl),350.32
+unknown,Tule,,E0119_B_LSMA,35.964300,-119.169890,,2024 Elevation (ft amsl),350.09
+unknown,Tule,,E0119_B_LSMA,35.964300,-119.169890,,2023 to 2024 Subsidence (ft),0.23
+unknown,Tule,,E0120_B_LSMA,35.964300,-119.152040,,2023 Elevation (ft amsl),361.00
+unknown,Tule,,E0120_B_LSMA,35.964300,-119.152040,,2024 Elevation (ft amsl),360.77
+unknown,Tule,,E0120_B_LSMA,35.964300,-119.152040,,2023 to 2024 Subsidence (ft),0.23
+unknown,Tule,,E0121_B_LSMA,35.964260,-119.135310,,2023 Elevation (ft amsl),370.26
+unknown,Tule,,E0121_B_LSMA,35.964260,-119.135310,,2024 Elevation (ft amsl),370.10
+unknown,Tule,,E0121_B_LSMA,35.964260,-119.135310,,2023 to 2024 Subsidence (ft),0.16
+unknown,Tule,,E0122_B_LSMA,35.971680,-119.161110,,2023 Elevation (ft amsl),355.14
+unknown,Tule,,E0122_B_LSMA,35.971680,-119.161110,,2024 Elevation (ft amsl),354.99
+unknown,Tule,,E0122_B_LSMA,35.971680,-119.161110,,2023 to 2024 Subsidence (ft),0.15
+unknown,Tule,,E0123_B_LSMA,35.978840,-119.152340,,2023 Elevation (ft amsl),357.25
+unknown,Tule,,E0123_B_LSMA,35.978840,-119.152340,,2024 Elevation (ft amsl),357.14
+unknown,Tule,,E0123_B_LSMA,35.978840,-119.152340,,2023 to 2024 Subsidence (ft),0.11
+unknown,Tule,,E0124_B_LSMA,35.985900,-119.161120,,2023 Elevation (ft amsl),349.61
+unknown,Tule,,E0124_B_LSMA,35.985900,-119.161120,,2024 Elevation (ft amsl),349.37
+unknown,Tule,,E0124_B_LSMA,35.985900,-119.161120,,2023 to 2024 Subsidence (ft),0.24
+unknown,Tule,,E0125_B_LSMA,35.972290,-119.143280,,2023 Elevation (ft amsl),366.74
+unknown,Tule,,E0125_B_LSMA,35.972290,-119.143280,,2024 Elevation (ft amsl),366.88
+unknown,Tule,,E0125_B_LSMA,35.972290,-119.143280,,2023 to 2024 Subsidence (ft),-0.14
+unknown,Tule,,E0126_B_LSMA,35.978920,-119.170040,,2023 Elevation (ft amsl),345.33
+unknown,Tule,,E0126_B_LSMA,35.978920,-119.170040,,2024 Elevation (ft amsl),345.29
+unknown,Tule,,E0126_B_LSMA,35.978920,-119.170040,,2023 to 2024 Subsidence (ft),0.04
+WY2025,Westside,,Location,,,,Table 5-5 Annual Rates of Measured Winter/Spring Subsidence Accrued over Preceding,
+unknown,Tule,,E0092_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,E0092_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.6
+unknown,Tule,,E0043_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,E0043_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.1
+unknown,Tule,,E0044_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,E0044_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.6
+unknown,Tule,,E0045_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,E0045_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.6
+unknown,Tule,,E0046_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,E0046_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,E0047_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,E0047_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.2
+unknown,Tule,,D0080_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0080_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.2
+unknown,Tule,,D0081_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0081_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.5
+unknown,Tule,,D0082_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0082_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.3
+unknown,Tule,,D0083_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0083_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.3
+unknown,Tule,,D0084_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0084_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.1
+unknown,Tule,,D0085_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0085_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.4
+unknown,Tule,,D0086_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0086_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,-0.2
+unknown,Tule,,D0087_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0087_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.1
+unknown,Tule,,D0088_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0088_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.7
+unknown,Tule,,D0089_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,D0089_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,P0033_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0033_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,6.4
+unknown,Tule,,P0034_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0034_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.7
+unknown,Tule,,P0035_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0035_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,5.7
+unknown,Tule,,P0036_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0036_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.6
+unknown,Tule,,P0037_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0037_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.8
+unknown,Tule,,P0038_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0038_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.7
+unknown,Tule,,P0039_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0039_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,5.4
+unknown,Tule,,P0040_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0040_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.7
+unknown,Tule,,P0041_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0041_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,5.5
+unknown,Tule,,P0042_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,P0042_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,
+unknown,Tule,,T0054_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0054_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.2
+unknown,Tule,,T0055_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0055_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.8
+unknown,Tule,,T0056_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0056_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.5
+unknown,Tule,,T0057_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0057_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.7
+unknown,Tule,,T0058_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0058_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.7
+unknown,Tule,,T0059_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0059_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,6.9
+unknown,Tule,,T0060_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0060_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.8
+unknown,Tule,,T0061_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0061_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,0.8
+unknown,Tule,,T0062_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0062_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.1
+unknown,Tule,,T0063_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0063_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.2
+unknown,Tule,,T0064_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0064_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.8
+unknown,Tule,,T0065_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0065_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.5
+unknown,Tule,,T0066_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0066_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.5
+unknown,Tule,,T0067_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0067_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.6
+unknown,Tule,,T0068_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0068_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.1
+unknown,Tule,,T0069_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0069_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.1
+unknown,Tule,,T0070_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0070_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.2
+unknown,Tule,,T0071_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0071_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.4
+unknown,Tule,,T0072_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0072_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.7
+unknown,Tule,,T0073_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0073_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,T0074_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0074_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,4.4
+unknown,Tule,,T0075_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0075_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.6
+unknown,Tule,,T0076_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,T0076_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,6.7
+unknown,Tule,,A0077_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,A0077_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,3.0
+unknown,Tule,,A0078_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,A0078_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.5
+unknown,Tule,,A0079_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,A0079_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,2.5
+unknown,Tule,,TP0050_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,TP0050_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.1
+unknown,Tule,,TP0051_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,TP0051_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,TP0052_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,TP0052_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,TP0053_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,TP0053_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,V0048_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,V0048_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,V0049_InSAR,0.0,,,Land Subsidence - InSAR Data (ft),0.0
+unknown,Tule,,V0049_InSAR,0.0,,,Allowable Land Subsidence between 2024 and 2040,1.0
+unknown,Tule,,D0073_G_FKC,0.7,,,2020,406.2
+unknown,Tule,,D0073_G_FKC,0.7,,,Subsidence,0
+unknown,Tule,,D0074_B_FKC,0.5,,,2020,415.5
+unknown,Tule,,D0074_B_FKC,0.5,,,Subsidence,0
+unknown,Tule,,D0075_B_FKC,0.5,,,2020,403.2
+unknown,Tule,,D0075_B_FKC,0.5,,,Subsidence,0
+unknown,Tule,,D0076_B_FKC,0.7,,,2020,408.9
+unknown,Tule,,D0076_B_FKC,0.7,,,Subsidence,0
+unknown,Tule,,D0077_B_FKC,0.4,,,2020,401.9
+unknown,Tule,,D0077_B_FKC,0.4,,,Subsidence,0
+unknown,Tule,,D0078_B_FKC,0.2,,,2020,406.1
+unknown,Tule,,D0078_B_FKC,0.2,,,Subsidence,0
+unknown,Tule,,D0079_G_FKC,0.1,,,2020,407.1
+unknown,Tule,,D0079_G_FKC,0.1,,,Subsidence,0
+unknown,Tule,,D0080_B_FKC,0.1,,,2020,433.1
+unknown,Tule,,D0080_B_FKC,0.1,,,Subsidence,0
+unknown,Tule,,D0081_B_FKC,0.1,,,2020,399.5
+unknown,Tule,,D0081_B_FKC,0.1,,,Subsidence,0
+unknown,Tule,,D0082_B_FKC,0.0,,,2020,423.4
+unknown,Tule,,D0082_B_FKC,0.0,,,Subsidence,0
+unknown,Tule,,D0083_B_FKC,0.0,,,2020,419.5
+unknown,Tule,,D0083_B_FKC,0.0,,,Subsidence,0
+unknown,Tule,,D0084_B_FKC,0.4,,,2020,407.3
+unknown,Tule,,D0084_B_FKC,0.4,,,Subsidence,0
+unknown,Tule,,1 The interim milestones and measurable objective are based on ground surface elevations correlated to safe yield conditions (the absence of transitional,,,,2020,
+unknown,Tule,,1 The interim milestones and measurable objective are based on ground surface elevations correlated to safe yield conditions (the absence of transitional,,,,Subsidence,
+unknown,Tule,,D0073_G_FKC,,,,Ground Surface Elevation (ft amsl),405.56
+unknown,Tule,,D0074_B_FKC,,,,Ground Surface Elevation (ft amsl),415.01
+unknown,Tule,,D0075_B_FKC,,,,Ground Surface Elevation (ft amsl),402.71
+unknown,Tule,,D0076_B_FKC,,,,Ground Surface Elevation (ft amsl),408.3
+unknown,Tule,,D0077_B_FKC,,,,Ground Surface Elevation (ft amsl),401.56
+unknown,Tule,,D0078_B_FKC,,,,Ground Surface Elevation (ft amsl),405.94
+unknown,Tule,,D0079_G_FKC,,,,Ground Surface Elevation (ft amsl),407.03
+unknown,Tule,,D0080_B_FKC,,,,Ground Surface Elevation (ft amsl),433.01
+unknown,Tule,,D0081_B_FKC,,,,Ground Surface Elevation (ft amsl),399.27
+unknown,Tule,,D0082_B_FKC,,,,Ground Surface Elevation (ft amsl),423.56
+unknown,Tule,,D0083_B_FKC,,,,Ground Surface Elevation (ft amsl),419.57
+unknown,Tule,,D0084_B_FKC,,,,Ground Surface Elevation (ft amsl),406.99
+unknown,Tule,,The interim milestones and measurable objective are based on ground surface elevations correlated to safe yield conditions (the absence of transitional,,,,Ground Surface Elevation (ft amsl),
+WY2024,Kaweah,Cal Trans,DH6691,-,,,2020 Elevation,
+WY2024,Kaweah,Cal Trans,DH6691,-,,,2024 Elevation,
+WY2024,Kaweah,Cal Trans,DH6691,-,,,WY2025 Subsidence1 (ft),
+WY2024,Kaweah,Cal Trans,DH6739,1.89,,,2020 Elevation,255.65
+WY2024,Kaweah,Cal Trans,DH6739,1.89,,,2024 Elevation,254.459
+WY2024,Kaweah,Cal Trans,DH6739,1.89,,,WY2025 Subsidence1 (ft),0.70
+WY2024,Kaweah,KDWCD,K001,-0.09,,,2020 Elevation,462.45
+WY2024,Kaweah,KDWCD,K001,-0.09,,,2024 Elevation,462.55
+WY2024,Kaweah,KDWCD,K001,-0.09,,,WY2025 Subsidence1 (ft),0.01
+WY2024,Kaweah,KDWCD,K00X,-,,,2020 Elevation,
+WY2024,Kaweah,KDWCD,K00X,-,,,2024 Elevation,
+WY2024,Kaweah,KDWCD,K00X,-,,,WY2025 Subsidence1 (ft),
+WY2024,Kaweah,KDWCD,K015,0.72,,,2020 Elevation,298.28
+WY2024,Kaweah,KDWCD,K015,0.72,,,2024 Elevation,297.69
+WY2024,Kaweah,KDWCD,K015,0.72,,,WY2025 Subsidence1 (ft),0.13
+WY2024,Kaweah,KDWCD,K02A1,-,,,2020 Elevation,414.68
+WY2024,Kaweah,KDWCD,K02A1,-,,,2024 Elevation,
+WY2024,Kaweah,KDWCD,K02A1,-,,,WY2025 Subsidence1 (ft),
+WY2024,Kaweah,Cal Trans,DH6683,-,,,2020 Elevation,218.28
+WY2024,Kaweah,Cal Trans,DH6683,-,,,2024 Elevation,
+WY2024,Kaweah,Cal Trans,DH6683,-,,,2025 Elevation,
+WY2024,Kaweah,Cal Trans,DH6683,-,,,WY2025 Subsidence1 (ft),
+WY2024,Kaweah,KDWCD,K007,1.00,,,2020 Elevation,293.43
+WY2024,Kaweah,KDWCD,K007,1.00,,,2024 Elevation,292.57
+WY2024,Kaweah,KDWCD,K007,1.00,,,2025 Elevation,292.42
+WY2024,Kaweah,KDWCD,K007,1.00,,,WY2025 Subsidence1 (ft),0.15
+WY2024,Kaweah,KDWCD,K009,3.08,,,2020 Elevation,238.06
+WY2024,Kaweah,KDWCD,K009,3.08,,,2024 Elevation,235.60
+WY2024,Kaweah,KDWCD,K009,3.08,,,2025 Elevation,234.98
+WY2024,Kaweah,KDWCD,K009,3.08,,,WY2025 Subsidence1 (ft),0.62
+WY2024,Kaweah,KDWCD,K014,2.15,,,2020 Elevation,294.07
+WY2024,Kaweah,KDWCD,K014,2.15,,,2024 Elevation,292.49
+WY2024,Kaweah,KDWCD,K014,2.15,,,2025 Elevation,291.92
+WY2024,Kaweah,KDWCD,K014,2.15,,,WY2025 Subsidence1 (ft),0.57
+WY2024,Kaweah,KDWCD,TID1,-,,,2020 Elevation,
+WY2024,Kaweah,KDWCD,TID1,-,,,2024 Elevation,
+WY2024,Kaweah,KDWCD,TID1,-,,,2025 Elevation,
+WY2024,Kaweah,KDWCD,TID1,-,,,WY2025 Subsidence1 (ft),

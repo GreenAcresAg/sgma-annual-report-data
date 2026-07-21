@@ -143,13 +143,33 @@ def parse_smc_words(page, yr):
     return rows or None
 
 
+LATW = re.compile(r"3[56]\.\d{3,}")
+LONW = re.compile(r"-1(19|20)\.\d{3,}")
+
+
+def harvest_coords(page):
+    """Word-position lat/lon per benchmark from any page that plots them next to the id (the
+    WY2025 criteria pages carry L/D coords even where the elevation tables don't)."""
+    words = page.get_text("words")
+    out = {}
+    for idw in (w for w in words if BM_ID.fullmatch(w[4])):
+        yc = (idw[1] + idw[3]) / 2
+        line = [w[4] for w in words if abs((w[1] + w[3]) / 2 - yc) < 4]
+        lat = next((c for c in line if LATW.fullmatch(c)), None)
+        lon = next((c for c in line if LONW.fullmatch(c)), None)
+        if lat and lon:
+            out[idw[4]] = (lat, lon)
+    return out
+
+
 def extract(pdf, page_range=None):
     doc = fitz.open(pdf)
     yr = report_year(doc)
     lo, hi = (page_range or (1, len(doc)))
-    rows, nbm = [], set()
+    rows, nbm, coords = [], set(), {}
     for pg in range(lo - 1, min(hi, len(doc))):
         page = doc[pg]
+        coords.update(harvest_coords(page))
         got = parse_smc_words(page, yr)      # word-based: the SMC table find_tables can't segment
         if not got:
             for tab in page.find_tables().tables:
@@ -163,8 +183,12 @@ def extract(pdf, page_range=None):
             for r in got:
                 nbm.add(r["station_id"])
             print(f"  {yr} p{pg + 1}: -> {len({r['station_id'] for r in got})} benchmarks")
+    # backfill coordinates onto rows that don't already carry them
+    for r in rows:
+        if not r["latitude"] and r["station_id"] in coords:
+            r["latitude"], r["longitude"] = coords[r["station_id"]]
     doc.close()
-    print(f"  {yr}: {len(nbm)} benchmarks total")
+    print(f"  {yr}: {len(nbm)} benchmarks total, {len(coords)} with coords")
     return rows
 
 

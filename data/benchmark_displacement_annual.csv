@@ -433,3 +433,331 @@ WY2024,Tule,ETGSA,E0125_B_LSMA,35.972290,-119.143280,benchmark surveyed,2023 to 
 WY2024,Tule,ETGSA,E0126_B_LSMA,35.978920,-119.170040,benchmark surveyed,2023 Elevation (ft amsl),345.33
 WY2024,Tule,ETGSA,E0126_B_LSMA,35.978920,-119.170040,benchmark surveyed,2024 Elevation (ft amsl),345.29
 WY2024,Tule,ETGSA,E0126_B_LSMA,35.978920,-119.170040,benchmark surveyed,2023 to 2024 Subsidence (ft),0.04
+WY2023,Tulare Lake,El Rico,SUB083,36.036209,-119.571581,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.5123
+WY2023,Tulare Lake,El Rico,SUB083,36.036209,-119.571581,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,El Rico,SUB109,36.123381,-119.698447,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.4117
+WY2023,Tulare Lake,El Rico,SUB109,36.123381,-119.698447,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,El Rico,SUB110,36.079606,-119.771000,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.2923
+WY2023,Tulare Lake,El Rico,SUB110,36.079606,-119.771000,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,El Rico,SUB093,35.887869,-119.525004,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.1911
+WY2023,Tulare Lake,El Rico,SUB093,35.887869,-119.525004,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.0694
+WY2023,Tulare Lake,El Rico,SUB125,36.137720,-119.585053,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,El Rico,SUB125,36.137720,-119.585053,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2320
+WY2023,Tulare Lake,El Rico,CRCN,36.113986,-119.568034,Continuous GPS,Fall 2021 to Fall 2022 (feet),-0.3224
+WY2023,Tulare Lake,El Rico,CRCN,36.113986,-119.568034,Continuous GPS,Fall 2022 to Fall 2023 (feet),-0.0719
+WY2023,Tulare Lake,El Rico,S238,36.123351,-119.574423,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,El Rico,S238,36.123351,-119.574423,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,El Rico,S234P2,36.182147,-119.600168,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,El Rico,S234P2,36.182147,-119.600168,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,K021,36.401405,-119.580471,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.0973
+WY2023,Tulare Lake,Mid-Kings River,K021,36.401405,-119.580471,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.013
+WY2023,Tulare Lake,Mid-Kings River,S224P2,36.327939,-119.595252,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.4642
+WY2023,Tulare Lake,Mid-Kings River,S224P2,36.327939,-119.595252,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.1210
+WY2023,Tulare Lake,Mid-Kings River,S222R,36.357226,-119.583544,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,S222R,36.357226,-119.583544,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,SUB032,36.327500,-119.647222,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.4541
+WY2023,Tulare Lake,Mid-Kings River,SUB032,36.327500,-119.647222,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.5350
+WY2023,Tulare Lake,Mid-Kings River,SUB111,36.313418,-119.736111,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.5001
+WY2023,Tulare Lake,Mid-Kings River,SUB111,36.313418,-119.736111,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.5136
+WY2023,Tulare Lake,Mid-Kings River,SUB068,36.313611,-119.735556,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,SUB068,36.313611,-119.735556,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,N 460 RESET,36.313889,-119.722222,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,N 460 RESET,36.313889,-119.722222,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,X 931,36.323182,-119.709159,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,X 931,36.323182,-119.709159,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,SUB091,36.327222,-119.645833,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,SUB091,36.327222,-119.645833,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,U 808,36.328056,-119.609167,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,U 808,36.328056,-119.609167,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,U 511,36.328094,-119.625146,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,U 511,36.328094,-119.625146,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Mid-Kings River,X 511,36.342778,-119.645833,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Mid-Kings River,X 511,36.342778,-119.645833,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,South Fork Kings,SUB028,36.255639,-119.859718,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.4432
+WY2023,Tulare Lake,South Fork Kings,SUB028,36.255639,-119.859718,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.4883
+WY2023,Tulare Lake,South Fork Kings,SUB086,36.362590,-119.809092,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.3810
+WY2023,Tulare Lake,South Fork Kings,SUB086,36.362590,-119.809092,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.3553
+WY2023,Tulare Lake,South Fork Kings,SUB102,36.189496,-119.845100,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.3222
+WY2023,Tulare Lake,South Fork Kings,SUB102,36.189496,-119.845100,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2225
+WY2023,Tulare Lake,South Fork Kings,SUB061,36.172256,-119.815929,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.3544
+WY2023,Tulare Lake,South Fork Kings,SUB061,36.172256,-119.815929,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2109
+WY2023,Tulare Lake,South Fork Kings,LEMA,36.292025,-119.782390,Continuous GPS,Fall 2021 to Fall 2022 (feet),-0.2135
+WY2023,Tulare Lake,South Fork Kings,LEMA,36.292025,-119.782390,Continuous GPS,Fall 2022 to Fall 2023 (feet),-0.2712
+WY2023,Tulare Lake,Southwest Kings,SUB027,35.992608,-119.959281,benchmark surveyed,Fall 2021 to Fall 2022 (feet),0.0068
+WY2023,Tulare Lake,Southwest Kings,SUB027,35.992608,-119.959281,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.1384
+WY2023,Tulare Lake,Southwest Kings,SUB030,35.857055,-119.891512,benchmark surveyed,Fall 2021 to Fall 2022 (feet),0.006
+WY2023,Tulare Lake,Southwest Kings,SUB030,35.857055,-119.891512,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.0972
+WY2023,Tulare Lake,Southwest Kings,SUB076,35.789925,-119.869016,benchmark surveyed,Fall 2021 to Fall 2022 (feet),0.057
+WY2023,Tulare Lake,Southwest Kings,SUB076,35.789925,-119.869016,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.1473
+WY2023,Tulare Lake,Southwest Kings,U 1097,35.978890,-119.951390,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Southwest Kings,U 1097,35.978890,-119.951390,benchmark surveyed,Fall 2022 to Fall 2023 (feet),
+WY2023,Tulare Lake,Tri-County Water Authority,SUB107,35.934045,-119.754114,benchmark surveyed,Fall 2021 to Fall 2022 (feet),0.0047
+WY2023,Tulare Lake,Tri-County Water Authority,SUB107,35.934045,-119.754114,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.4022
+WY2023,Tulare Lake,Tri-County Water Authority,SUB038,35.933210,-119.756113,benchmark surveyed,Fall 2021 to Fall 2022 (feet),-0.2143
+WY2023,Tulare Lake,Tri-County Water Authority,SUB038,35.933210,-119.756113,benchmark surveyed,Fall 2022 to Fall 2023 (feet),0.0529
+WY2023,Tulare Lake,Tri-County Water Authority,SUB124,35.934116,-119.645005,benchmark surveyed,Fall 2021 to Fall 2022 (feet),
+WY2023,Tulare Lake,Tri-County Water Authority,SUB124,35.934116,-119.645005,benchmark surveyed,Fall 2022 to Fall 2023 (feet),-0.2692
+WY2025,Tulare Lake,El Rico,CRCN (RMS),36.113986,-119.568034,,Fall 2022 to Fall 2023 (feet),-0.0719
+WY2025,Tulare Lake,El Rico,CRCN (RMS),36.113986,-119.568034,,Fall 2023 to Fall 2024 (feet),-0.100
+WY2025,Tulare Lake,El Rico,CRCN (RMS),36.113986,-119.568034,,Fall 2024 to Fall 2025 (feet),-0.400
+WY2025,Tulare Lake,El Rico,S234P2,36.182147,-119.600168,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,S234P2,36.182147,-119.600168,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,S234P2,36.182147,-119.600168,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,El Rico,S238,36.123351,-119.574423,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,S238,36.123351,-119.574423,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,S238,36.123351,-119.574423,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,El Rico,S245PR,missing data,missing data,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,S245PR,missing data,missing data,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,S245PR,missing data,missing data,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,El Rico,S247R,missing data,missing data,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,S247R,missing data,missing data,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,S247R,missing data,missing data,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,El Rico,SUB083,36.036194,-119.571614,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB083,36.036194,-119.571614,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB083,36.036194,-119.571614,,Fall 2024 to Fall 2025 (feet),-0.5541
+WY2025,Tulare Lake,El Rico,SUB093,35.887860,-119.525035,,Fall 2022 to Fall 2023 (feet),0.0694
+WY2025,Tulare Lake,El Rico,SUB093,35.887860,-119.525035,,Fall 2023 to Fall 2024 (feet),-0.2198
+WY2025,Tulare Lake,El Rico,SUB093,35.887860,-119.525035,,Fall 2024 to Fall 2025 (feet),-0.4757
+WY2025,Tulare Lake,El Rico,SUB109,36.123382,-119.698448,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB109,36.123382,-119.698448,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB109,36.123382,-119.698448,,Fall 2024 to Fall 2025 (feet),-0.6896
+WY2025,Tulare Lake,El Rico,SUB110,36.079605,-119.771001,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB110,36.079605,-119.771001,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB110,36.079605,-119.771001,,Fall 2024 to Fall 2025 (feet),-0.3914
+WY2025,Tulare Lake,El Rico,SUB125,36.137719,-119.585053,,Fall 2022 to Fall 2023 (feet),-0.2320
+WY2025,Tulare Lake,El Rico,SUB125,36.137719,-119.585053,,Fall 2023 to Fall 2024 (feet),-0.2592
+WY2025,Tulare Lake,El Rico,SUB125,36.137719,-119.585053,,Fall 2024 to Fall 2025 (feet),-0.4432
+WY2025,Tulare Lake,El Rico,SUB139,35.862368,-119.573492,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB139,35.862368,-119.573492,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB139,35.862368,-119.573492,,Fall 2024 to Fall 2025 (feet),-0.4035
+WY2025,Tulare Lake,El Rico,SUB143,36.042593,-119.642907,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB143,36.042593,-119.642907,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB143,36.042593,-119.642907,,Fall 2024 to Fall 2025 (feet),-0.4104
+WY2025,Tulare Lake,El Rico,SUB148,36.097959,-119.572310,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB148,36.097959,-119.572310,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB148,36.097959,-119.572310,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,El Rico,SUB149,35.818842,-119.626792,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,El Rico,SUB149,35.818842,-119.626792,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,El Rico,SUB149,35.818842,-119.626792,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Mid-Kings River,K021,36.401405,-119.580471,,Fall 2022 to Fall 2023 (feet),-0.013
+WY2025,Tulare Lake,Mid-Kings River,K021,36.401405,-119.580471,,Fall 2023 to Fall 2024 (feet),-0.009
+WY2025,Tulare Lake,Mid-Kings River,K021,36.401405,-119.580471,,Fall 2024 to Fall 2025 (feet),-0.046
+WY2025,Tulare Lake,Mid-Kings River,N 460 RESET,36.313889,-119.722222,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,N 460 RESET,36.313889,-119.722222,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Mid-Kings River,N 460 RESET,36.313889,-119.722222,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Mid-Kings River,S222R,36.357226,-119.583544,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,S222R,36.357226,-119.583544,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Mid-Kings River,S222R,36.357226,-119.583544,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Mid-Kings River,S224P2,36.327939,-119.595252,,Fall 2022 to Fall 2023 (feet),-0.1210
+WY2025,Tulare Lake,Mid-Kings River,S224P2,36.327939,-119.595252,,Fall 2023 to Fall 2024 (feet),-0.180
+WY2025,Tulare Lake,Mid-Kings River,S224P2,36.327939,-119.595252,,Fall 2024 to Fall 2025 (feet),-0.280
+WY2025,Tulare Lake,Mid-Kings River,SUB032,36.327588,-119.647138,,Fall 2022 to Fall 2023 (feet),-0.5350
+WY2025,Tulare Lake,Mid-Kings River,SUB032,36.327588,-119.647138,,Fall 2023 to Fall 2024 (feet),-0.5512
+WY2025,Tulare Lake,Mid-Kings River,SUB032,36.327588,-119.647138,,Fall 2024 to Fall 2025 (feet),0.1161
+WY2025,Tulare Lake,Mid-Kings River,SUB111,36.313419,-119.736112,,Fall 2022 to Fall 2023 (feet),-0.5136
+WY2025,Tulare Lake,Mid-Kings River,SUB111,36.313419,-119.736112,,Fall 2023 to Fall 2024 (feet),-0.6102
+WY2025,Tulare Lake,Mid-Kings River,SUB111,36.313419,-119.736112,,Fall 2024 to Fall 2025 (feet),0.2687
+WY2025,Tulare Lake,Mid-Kings River,SUB137,36.390352,-119.618945,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,SUB137,36.390352,-119.618945,,Fall 2023 to Fall 2024 (feet),-0.4167
+WY2025,Tulare Lake,Mid-Kings River,SUB137,36.390352,-119.618945,,Fall 2024 to Fall 2025 (feet),0.2254
+WY2025,Tulare Lake,Mid-Kings River,SUB138,36.379117,-119.619106,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,SUB138,36.379117,-119.619106,,Fall 2023 to Fall 2024 (feet),-0.6299
+WY2025,Tulare Lake,Mid-Kings River,SUB138,36.379117,-119.619106,,Fall 2024 to Fall 2025 (feet),0.3645
+WY2025,Tulare Lake,Mid-Kings River,U 511,36.328094,-119.625146,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,U 511,36.328094,-119.625146,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Mid-Kings River,U 511,36.328094,-119.625146,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Mid-Kings River,U 808,36.328056,-119.609167,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,U 808,36.328056,-119.609167,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Mid-Kings River,U 808,36.328056,-119.609167,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Mid-Kings River,X 511,36.342778,-119.645833,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,X 511,36.342778,-119.645833,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Mid-Kings River,X 511,36.342778,-119.645833,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Mid-Kings River,X 931,36.323182,-119.709159,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Mid-Kings River,X 931,36.323182,-119.709159,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Mid-Kings River,X 931,36.323182,-119.709159,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,South Fork Kings,LEMA (RMS),36.292025,-119.782390,,Fall 2022 to Fall 2023 (feet),-0.2712
+WY2025,Tulare Lake,South Fork Kings,LEMA (RMS),36.292025,-119.782390,,Fall 2023 to Fall 2024 (feet),-0.114
+WY2025,Tulare Lake,South Fork Kings,LEMA (RMS),36.292025,-119.782390,,Fall 2024 to Fall 2025 (feet),-0.433
+WY2025,Tulare Lake,South Fork Kings,SUB028,36.255642,-119.859720,,Fall 2022 to Fall 2023 (feet),-0.4884
+WY2025,Tulare Lake,South Fork Kings,SUB028,36.255642,-119.859720,,Fall 2023 to Fall 2024 (feet),-0.1115
+WY2025,Tulare Lake,South Fork Kings,SUB028,36.255642,-119.859720,,Fall 2024 to Fall 2025 (feet),0.0948
+WY2025,Tulare Lake,South Fork Kings,SUB061,36.172250,-119.815963,,Fall 2022 to Fall 2023 (feet),-0.2110
+WY2025,Tulare Lake,South Fork Kings,SUB061,36.172250,-119.815963,,Fall 2023 to Fall 2024 (feet),-0.0361
+WY2025,Tulare Lake,South Fork Kings,SUB061,36.172250,-119.815963,,Fall 2024 to Fall 2025 (feet),-0.3593
+WY2025,Tulare Lake,South Fork Kings,SUB086,36.362574,-119.809130,,Fall 2022 to Fall 2023 (feet),-0.3553
+WY2025,Tulare Lake,South Fork Kings,SUB086,36.362574,-119.809130,,Fall 2023 to Fall 2024 (feet),-0.3314
+WY2025,Tulare Lake,South Fork Kings,SUB086,36.362574,-119.809130,,Fall 2024 to Fall 2025 (feet),0.1998
+WY2025,Tulare Lake,South Fork Kings,SUB102,36.189489,-119.845127,,Fall 2022 to Fall 2023 (feet),-0.2226
+WY2025,Tulare Lake,South Fork Kings,SUB102,36.189489,-119.845127,,Fall 2023 to Fall 2024 (feet),0.0361
+WY2025,Tulare Lake,South Fork Kings,SUB102,36.189489,-119.845127,,Fall 2024 to Fall 2025 (feet),-0.0837
+WY2025,Tulare Lake,Southwest Kings,SUB027,35.992594,-119.959318,,Fall 2022 to Fall 2023 (feet),0.1385
+WY2025,Tulare Lake,Southwest Kings,SUB027,35.992594,-119.959318,,Fall 2023 to Fall 2024 (feet),-0.3379
+WY2025,Tulare Lake,Southwest Kings,SUB027,35.992594,-119.959318,,Fall 2024 to Fall 2025 (feet),0.2431
+WY2025,Tulare Lake,Southwest Kings,SUB030,35.857041,-119.891544,,Fall 2022 to Fall 2023 (feet),0.0972
+WY2025,Tulare Lake,Southwest Kings,SUB030,35.857041,-119.891544,,Fall 2023 to Fall 2024 (feet),-0.0525
+WY2025,Tulare Lake,Southwest Kings,SUB030,35.857041,-119.891544,,Fall 2024 to Fall 2025 (feet),-0.2146
+WY2025,Tulare Lake,Southwest Kings,SUB076,35.789912,-119.869050,,Fall 2022 to Fall 2023 (feet),0.1473
+WY2025,Tulare Lake,Southwest Kings,SUB076,35.789912,-119.869050,,Fall 2023 to Fall 2024 (feet),0.1115
+WY2025,Tulare Lake,Southwest Kings,SUB076,35.789912,-119.869050,,Fall 2024 to Fall 2025 (feet),-0.2500
+WY2025,Tulare Lake,Southwest Kings,SUB144,36.137935,-119.892532,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Southwest Kings,SUB144,36.137935,-119.892532,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Southwest Kings,SUB144,36.137935,-119.892532,,Fall 2024 to Fall 2025 (feet),-0.2133
+WY2025,Tulare Lake,Tri-County Water Authority,S256PR,missing data,missing data,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Tri-County Water Authority,S256PR,missing data,missing data,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Tri-County Water Authority,S256PR,missing data,missing data,,Fall 2024 to Fall 2025 (feet),
+WY2025,Tulare Lake,Tri-County Water Authority,SUB038,35.789857,-119.576008,,Fall 2022 to Fall 2023 (feet),0.0520
+WY2025,Tulare Lake,Tri-County Water Authority,SUB038,35.789857,-119.576008,,Fall 2023 to Fall 2024 (feet),-0.3707
+WY2025,Tulare Lake,Tri-County Water Authority,SUB038,35.789857,-119.576008,,Fall 2024 to Fall 2025 (feet),-0.1860
+WY2025,Tulare Lake,Tri-County Water Authority,SUB107,35.934045,-119.754114,,Fall 2022 to Fall 2023 (feet),-0.4023
+WY2025,Tulare Lake,Tri-County Water Authority,SUB107,35.934045,-119.754114,,Fall 2023 to Fall 2024 (feet),-0.4888
+WY2025,Tulare Lake,Tri-County Water Authority,SUB107,35.934045,-119.754114,,Fall 2024 to Fall 2025 (feet),0.3176
+WY2025,Tulare Lake,Tri-County Water Authority,SUB124,35.934115,-119.645004,,Fall 2022 to Fall 2023 (feet),-0.2693
+WY2025,Tulare Lake,Tri-County Water Authority,SUB124,35.934115,-119.645004,,Fall 2023 to Fall 2024 (feet),-0.1312
+WY2025,Tulare Lake,Tri-County Water Authority,SUB124,35.934115,-119.645004,,Fall 2024 to Fall 2025 (feet),-0.3743
+WY2025,Tulare Lake,Tri-County Water Authority,SUB140,35.789745,-119.575620,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Tri-County Water Authority,SUB140,35.789745,-119.575620,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Tri-County Water Authority,SUB140,35.789745,-119.575620,,Fall 2024 to Fall 2025 (feet),-0.3645
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB001,36.218976,-120.060879,,Fall 2022 to Fall 2023 (feet),0.7566
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB001,36.218976,-120.060879,,Fall 2023 to Fall 2024 (feet),-0.0886
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB001,36.218976,-120.060879,,Fall 2024 to Fall 2025 (feet),-0.1011
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB002,36.218703,-120.061415,,Fall 2022 to Fall 2023 (feet),0.5409
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB002,36.218703,-120.061415,,Fall 2023 to Fall 2024 (feet),0.0558
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB002,36.218703,-120.061415,,Fall 2024 to Fall 2025 (feet),-0.1988
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB023,36.137471,-120.058909,,Fall 2022 to Fall 2023 (feet),0.6325
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB023,36.137471,-120.058909,,Fall 2023 to Fall 2024 (feet),-0.4232
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB023,36.137471,-120.058909,,Fall 2024 to Fall 2025 (feet),0.0167
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB036,36.289277,-119.287827,,Fall 2022 to Fall 2023 (feet),-0.4242
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB036,36.289277,-119.287827,,Fall 2023 to Fall 2024 (feet),-0.4331
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB036,36.289277,-119.287827,,Fall 2024 to Fall 2025 (feet),-0.2549
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB037,35.819064,-119.259007,,Fall 2022 to Fall 2023 (feet),-0.0776
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB037,35.819064,-119.259007,,Fall 2023 to Fall 2024 (feet),0.0197
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB037,35.819064,-119.259007,,Fall 2024 to Fall 2025 (feet),-0.4268
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB053,35.731083,-119.801879,,Fall 2022 to Fall 2023 (feet),-0.0832
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB053,35.731083,-119.801879,,Fall 2023 to Fall 2024 (feet),-0.6660
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB053,35.731083,-119.801879,,Fall 2024 to Fall 2025 (feet),0.3058
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB055,36.210703,-119.600959,,Fall 2022 to Fall 2023 (feet),-0.2507
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB055,36.210703,-119.600959,,Fall 2023 to Fall 2024 (feet),0.1804
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB055,36.210703,-119.600959,,Fall 2024 to Fall 2025 (feet),-0.3540
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB062,36.092363,-119.322204,,Fall 2022 to Fall 2023 (feet),-0.1210
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB062,36.092363,-119.322204,,Fall 2023 to Fall 2024 (feet),-0.2297
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB062,36.092363,-119.322204,,Fall 2024 to Fall 2025 (feet),-0.4557
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB071,36.255451,-120.106958,,Fall 2022 to Fall 2023 (feet),0.3644
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB071,36.255451,-120.106958,,Fall 2023 to Fall 2024 (feet),0.0787
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB071,36.255451,-120.106958,,Fall 2024 to Fall 2025 (feet),0.1145
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB105,36.342986,-119.528911,,Fall 2022 to Fall 2023 (feet),-0.1746
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB105,36.342986,-119.528911,,Fall 2023 to Fall 2024 (feet),-0.4364
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB105,36.342986,-119.528911,,Fall 2024 to Fall 2025 (feet),-0.4869
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB130,36.177689,-119.510838,,Fall 2022 to Fall 2023 (feet),-0.4653
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB130,36.177689,-119.510838,,Fall 2023 to Fall 2024 (feet),-0.1411
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB130,36.177689,-119.510838,,Fall 2024 to Fall 2025 (feet),-1.0453
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB131,36.276582,-119.600537,,Fall 2022 to Fall 2023 (feet),-0.5718
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB131,36.276582,-119.600537,,Fall 2023 to Fall 2024 (feet),-0.0558
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB131,36.276582,-119.600537,,Fall 2024 to Fall 2025 (feet),-0.8074
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB135,36.048322,-120.003663,,Fall 2022 to Fall 2023 (feet),0.1839
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB135,36.048322,-120.003663,,Fall 2023 to Fall 2024 (feet),-0.0623
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB135,36.048322,-120.003663,,Fall 2024 to Fall 2025 (feet),0.0784
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB141,35.790083,-119.537425,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB141,35.790083,-119.537425,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB141,35.790083,-119.537425,,Fall 2024 to Fall 2025 (feet),-0.3573
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB145,36.288573,-119.876436,,Fall 2022 to Fall 2023 (feet),
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB145,36.288573,-119.876436,,Fall 2023 to Fall 2024 (feet),
+WY2025,Tulare Lake,Outside Tulare Lake Subbasin (Supplemental),SUB145,36.288573,-119.876436,,Fall 2024 to Fall 2025 (feet),
+WY2020,Tulare Lake,,LEMA,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.5260
+WY2020,Tulare Lake,,CRCN,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.6620
+WY2020,Tulare Lake,,SUB083,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.4260
+WY2020,Tulare Lake,,SUB093,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.1990
+WY2020,Tulare Lake,,K021,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.1110
+WY2020,Tulare Lake,,S224P2,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.3620
+WY2020,Tulare Lake,,SUB084,,,benchmark (figure),WY2020 Average Annual Change (ft),0.0410
+WY2020,Tulare Lake,,SUB028,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.2840
+WY2020,Tulare Lake,,SUB061,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.2450
+WY2020,Tulare Lake,,SUB086,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.3280
+WY2020,Tulare Lake,,SUB027,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0180
+WY2020,Tulare Lake,,SUB030,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0160
+WY2020,Tulare Lake,,SUB076,,,benchmark (figure),WY2020 Average Annual Change (ft),0.0260
+WY2020,Tulare Lake,,SUB038,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.1530
+WY2020,Tulare Lake,,SUB107,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0430
+WY2020,Tulare Lake,,SUB002,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0890
+WY2020,Tulare Lake,,SUB001,,,benchmark (figure),WY2020 Average Annual Change (ft),0.0300
+WY2020,Tulare Lake,,SUB062,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.3740
+WY2020,Tulare Lake,,SUB055,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.5770
+WY2020,Tulare Lake,,SUB023,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0900
+WY2020,Tulare Lake,,SUB071,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0220
+WY2020,Tulare Lake,,SUB109,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.1280
+WY2020,Tulare Lake,,SUB110,,,benchmark (figure),WY2020 Average Annual Change (ft),-0.0420
+WY2021,Tulare Lake,,SUB053,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0670
+WY2021,Tulare Lake,,SUB062,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4600
+WY2021,Tulare Lake,,SUB093,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1700
+WY2021,Tulare Lake,,SUB038,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1800
+WY2021,Tulare Lake,,SUB055,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.6200
+WY2021,Tulare Lake,,SUB027,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0690
+WY2021,Tulare Lake,,SUB076,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0540
+WY2021,Tulare Lake,,SUB030,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0024
+WY2021,Tulare Lake,,SUB107,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0290
+WY2021,Tulare Lake,,SUB109,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3500
+WY2021,Tulare Lake,,SUB110,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3200
+WY2021,Tulare Lake,,SUB061,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2800
+WY2021,Tulare Lake,,SUB102,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2700
+WY2021,Tulare Lake,,SUB028,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3700
+WY2021,Tulare Lake,,SUB023,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1200
+WY2021,Tulare Lake,,SUB002,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1400
+WY2021,Tulare Lake,,SUB001,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0440
+WY2021,Tulare Lake,,SUB071,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0730
+WY2021,Tulare Lake,,SUB032,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4100
+WY2021,Tulare Lake,,SUB111,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4100
+WY2021,Tulare Lake,,SUB086,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3200
+WY2021,Tulare Lake,,K021,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1100
+WY2021,Tulare Lake,,CRCN,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2100
+WY2021,Tulare Lake,,SUB083,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4300
+WY2021,Tulare Lake,,S224P2,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3600
+WY2021,Tulare Lake,,SUB084,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0400
+WY2021,Tulare Lake,,SUB105,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2800
+WY2021,Tulare Lake,,SUB036,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2500
+WY2022,Tulare Lake,,SUB053,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.0660
+WY2022,Tulare Lake,,SUB062,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.4900
+WY2022,Tulare Lake,,SUB093,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.1900
+WY2022,Tulare Lake,,SUB038,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.2100
+WY2022,Tulare Lake,,SUB055,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.6900
+WY2022,Tulare Lake,,SUB076,,,benchmark (figure),WY2022 Average Annual Change (ft),0.0570
+WY2022,Tulare Lake,,SUB030,,,benchmark (figure),WY2022 Average Annual Change (ft),0.0060
+WY2022,Tulare Lake,,SUB107,,,benchmark (figure),WY2022 Average Annual Change (ft),0.0047
+WY2022,Tulare Lake,,SUB109,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.4100
+WY2022,Tulare Lake,,SUB110,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.2900
+WY2022,Tulare Lake,,SUB061,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.3500
+WY2022,Tulare Lake,,SUB102,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.3200
+WY2022,Tulare Lake,,SUB028,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.4400
+WY2022,Tulare Lake,,SUB023,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.1600
+WY2022,Tulare Lake,,SUB002,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.1500
+WY2022,Tulare Lake,,SUB001,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.0780
+WY2022,Tulare Lake,,SUB071,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.0580
+WY2022,Tulare Lake,,SUB032,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.4500
+WY2022,Tulare Lake,,SUB111,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.5000
+WY2022,Tulare Lake,,SUB086,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.3800
+WY2022,Tulare Lake,,K021,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.0970
+WY2022,Tulare Lake,,CRCN,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.3200
+WY2022,Tulare Lake,,SUB083,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.5100
+WY2022,Tulare Lake,,SUB105,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.2900
+WY2022,Tulare Lake,,SUB027,,,benchmark (figure),WY2022 Average Annual Change (ft),0.0068
+WY2022,Tulare Lake,,S224P2,,,benchmark (figure),WY2022 Average Annual Change (ft),-0.4600
+WY2022,Tulare Lake,,SUB053,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0670
+WY2022,Tulare Lake,,SUB062,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4600
+WY2022,Tulare Lake,,SUB093,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1700
+WY2022,Tulare Lake,,SUB038,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1800
+WY2022,Tulare Lake,,SUB055,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.6200
+WY2022,Tulare Lake,,SUB076,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0540
+WY2022,Tulare Lake,,SUB030,,,benchmark (figure),WY2021 Average Annual Change (ft),0.0024
+WY2022,Tulare Lake,,SUB107,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0290
+WY2022,Tulare Lake,,SUB109,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3500
+WY2022,Tulare Lake,,SUB110,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3200
+WY2022,Tulare Lake,,SUB061,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2800
+WY2022,Tulare Lake,,SUB102,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2700
+WY2022,Tulare Lake,,SUB028,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3700
+WY2022,Tulare Lake,,SUB023,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1200
+WY2022,Tulare Lake,,SUB002,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.1400
+WY2022,Tulare Lake,,SUB001,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0440
+WY2022,Tulare Lake,,SUB071,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0730
+WY2022,Tulare Lake,,SUB032,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4100
+WY2022,Tulare Lake,,SUB111,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.4100
+WY2022,Tulare Lake,,SUB086,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.3200
+WY2022,Tulare Lake,,K021,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.0810
+WY2022,Tulare Lake,,CRCN,,,benchmark (figure),WY2021 Average Annual Change (ft),-0.2100

@@ -24,7 +24,16 @@ once a reliable SGMA-portal document endpoint is identified.
   basinId=507&reportYearId=1..9`) returns **empty for Tulare Lake every year** — confirming the
   values are PDF-only.
 
-## TODO: prior-year Tulare Lake reports (WY2020–2023)
-Need each year's report PDF (submittal/doc ids) to build the full 2019→2024 annual series. Run:
-`python3 extract_ar_benchmarks.py WY2023=<pdf> WY2022=<pdf> WY2021=<pdf> WY2020=<pdf>`.
-Then extend to other subbasins (each has its own basinId; Table E-1 layout may differ per author).
+## DONE: all Tulare Lake water years (WY2019–WY2025)
+Extracted from the local report PDFs (~/Downloads/5-022.12_*_WY_*.pdf). Two metrics, two
+extractors — full detail in [EXTRACTION_STATUS.md](EXTRACTION_STATUS.md):
+- `extract_tulare_rms.py` — Fall-to-Fall Table E-1 for WY2023 (32 stations) + WY2025 (55). Added a
+  ±5 ft plausibility guard (WY2023 S222R prints an impossible `-2838`).
+- `extract_tulare_figure.py` — the WY2020–WY2022 reports have NO table; per-benchmark values are
+  map-figure labels. Recovered via geometric (Hungarian) station↔value pairing. WY2020 (23),
+  WY2021 (28), WY2022 (26). Cross-validated WY2021 across two reports (mean Δ 0.001 ft).
+- WY2019: no per-benchmark data exists (narrative + InSAR figure only).
+
+## TODO: extend the figure/table extractors to other subbasins
+Each subbasin's reports use their own author/layout; Kaweah/Tule already have dedicated scripts.
+Westside & Delta-Mendota still need per-format extractors (their subsidence is figure-only).

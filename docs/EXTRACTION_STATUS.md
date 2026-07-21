@@ -12,7 +12,7 @@ absolute elevations (≈ hundreds of ft amsl) — filter by `metric`.
 | Subbasin | Status | Notes |
 |---|---|---|
 | **Tulare Lake** (WY2020–WY2025) | ✅ clean | Full multi-year, two metrics — see below. Verified/cross-validated. |
-| **Kaweah** (WY2023, WY2024) | ✅ clean | Per-year elevations (amsl) + WY subsidence (ft). |
+| **Kaweah** (WY2023–WY2025) | ✅ clean | `extract_kaweah.py` (P&P "Subsidence Monitoring Station" table): per-year elevations + annual + cumulative subsidence (ft). MT/MO criteria excluded; column-map by header (generic extractor mangled it). Cross-validated: 2020 baseline identical across 3 reports. |
 | **Tule** (WY2024) | ✅ clean | Dedicated `extract_tule.py` targets the "Benchmark Name" leveling table (69 benchmarks, coords, 2023 & 2024 elevations + 2023→2024 subsidence). InSAR/threshold tables excluded. |
 | **Westside** | ⚠️ partial | Only 1 row captured — subsidence is mostly in figures, not tables. |
 | **Delta-Mendota** | ❌ none | No parsable subsidence table (figures / different layout). |

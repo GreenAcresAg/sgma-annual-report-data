@@ -13,7 +13,7 @@ absolute elevations (≈ hundreds of ft amsl) — filter by `metric`.
 |---|---|---|
 | **Tulare Lake** (WY2020–WY2025) | ✅ clean | Full multi-year, two metrics — see below. Verified/cross-validated. |
 | **Kaweah** (WY2023–WY2025) | ✅ clean | `extract_kaweah.py` (P&P "Subsidence Monitoring Station" table): per-year elevations + annual + cumulative subsidence (ft). MT/MO criteria excluded; column-map by header (generic extractor mangled it). Cross-validated: 2020 baseline identical across 3 reports. |
-| **Tule** (WY2024) | ✅ clean | Dedicated `extract_tule.py` targets the "Benchmark Name" leveling table (69 benchmarks, coords, 2023 & 2024 elevations + 2023→2024 subsidence). InSAR/threshold tables excluded. |
+| **Tule** (WY2024–WY2025) | ✅ clean | `extract_tule.py`, 3 layouts. WY2024 "Benchmark Name" table (69 E/P benchmarks, coords, 2023/2024 elev + subsidence). WY2025 = SMC compliance table (Site \| July 2020 \| July 2025 \| Difference) that find_tables mangles, so parsed by **word position** (73 benchmarks, 2020/2025 elev), + a detailed appendix (19 Delano, 2020/2023/2024/2025). InSAR sites excluded; value guards drop column bleed. WY2024/WY2025 share few ids (different per-report networks) and WY2025 has no coordinates. |
 | **Westside** | ⚠️ partial | Only 1 row captured — subsidence is mostly in figures, not tables. |
 | **Delta-Mendota** | ❌ none | No parsable subsidence table (figures / different layout). |
 

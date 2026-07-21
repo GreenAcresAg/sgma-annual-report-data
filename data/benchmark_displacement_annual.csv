@@ -1091,3 +1091,223 @@ WY2025,Kaweah,,TUL99,,,benchmark surveyed,2024 Elevation (ft),
 WY2025,Kaweah,,TUL99,,,benchmark surveyed,2025 Elevation (ft),
 WY2025,Kaweah,,TUL99,,,benchmark surveyed,WY2025 Subsidence (ft),
 WY2025,Kaweah,,TUL99,,,benchmark surveyed,Cumulative Subsidence (ft),
+WY2025,Tule,,A0013_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),196.8
+WY2025,Tule,,A0013_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),195.0
+WY2025,Tule,,A0013_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.9
+WY2025,Tule,,A0017_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),204.4
+WY2025,Tule,,A0017_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),203.3
+WY2025,Tule,,A0017_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.1
+WY2025,Tule,,A0018_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),196.1
+WY2025,Tule,,A0018_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),195.2
+WY2025,Tule,,A0018_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.9
+WY2025,Tule,,A0019_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),192.3
+WY2025,Tule,,A0019_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),190.7
+WY2025,Tule,,A0019_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.6
+WY2025,Tule,,A0020_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),195.1
+WY2025,Tule,,A0020_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),189.8
+WY2025,Tule,,A0020_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),5.2
+WY2025,Tule,,D0012_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),267.1
+WY2025,Tule,,D0012_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),265.7
+WY2025,Tule,,D0012_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.5
+WY2025,Tule,,D0030_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),272.8
+WY2025,Tule,,D0030_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),271.6
+WY2025,Tule,,D0030_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.2
+WY2025,Tule,,D0031_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),296.7
+WY2025,Tule,,D0031_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),295.6
+WY2025,Tule,,D0031_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.1
+WY2025,Tule,,D0032_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),316.7
+WY2025,Tule,,D0032_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),316.2
+WY2025,Tule,,D0032_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.5
+WY2025,Tule,,D0033_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),366.1
+WY2025,Tule,,D0033_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),365.6
+WY2025,Tule,,D0033_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.5
+WY2025,Tule,,D0034_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),340.8
+WY2025,Tule,,D0034_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),339.4
+WY2025,Tule,,D0034_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.5
+WY2025,Tule,,D0089_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),498.2
+WY2025,Tule,,D0089_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),498.0
+WY2025,Tule,,D0089_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.2
+WY2025,Tule,,E0085_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),480.6
+WY2025,Tule,,E0085_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,E0086_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),447.7
+WY2025,Tule,,E0086_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.8
+WY2025,Tule,,E0087_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),531.1
+WY2025,Tule,,E0087_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.6
+WY2025,Tule,,KT088_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),457.5
+WY2025,Tule,,KT088_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.3
+WY2025,Tule,,L0001_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),253.0
+WY2025,Tule,,L0002_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),228.9
+WY2025,Tule,,L0002_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),225.7
+WY2025,Tule,,L0002_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),3.2
+WY2025,Tule,,L0003_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),228.7
+WY2025,Tule,,L0003_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),225.7
+WY2025,Tule,,L0003_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),3.0
+WY2025,Tule,,L0004_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),197.3
+WY2025,Tule,,L0004_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),195.2
+WY2025,Tule,,L0004_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,L0005_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),190.2
+WY2025,Tule,,L0005_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),187.9
+WY2025,Tule,,L0005_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.3
+WY2025,Tule,,L0006_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),192.3
+WY2025,Tule,,L0022_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),180.0
+WY2025,Tule,,L0022_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),177.9
+WY2025,Tule,,L0022_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.1
+WY2025,Tule,,L0023_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),190.8
+WY2025,Tule,,L0023_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),188.9
+WY2025,Tule,,L0023_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,L0024_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),254.9
+WY2025,Tule,,L0024_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),252.6
+WY2025,Tule,,L0024_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.3
+WY2025,Tule,,L0038_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),321.6
+WY2025,Tule,,L0038_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),319.9
+WY2025,Tule,,L0038_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.7
+WY2025,Tule,,L0039_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),307.5
+WY2025,Tule,,L0039_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),305.5
+WY2025,Tule,,L0039_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,L0040_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),309.0
+WY2025,Tule,,L0040_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),307.5
+WY2025,Tule,,L0040_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.5
+WY2025,Tule,,L0041_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),307.3
+WY2025,Tule,,L0041_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),305.4
+WY2025,Tule,,L0041_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,L0042_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),306.5
+WY2025,Tule,,L0042_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),304.1
+WY2025,Tule,,L0042_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.5
+WY2025,Tule,,L0043_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),348.6
+WY2025,Tule,,L0043_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),348.3
+WY2025,Tule,,L0043_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.3
+WY2025,Tule,,L0044_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),370.6
+WY2025,Tule,,L0044_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),370.2
+WY2025,Tule,,L0044_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.3
+WY2025,Tule,,L0045_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),346.3
+WY2025,Tule,,L0045_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),344.9
+WY2025,Tule,,L0045_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.4
+WY2025,Tule,,L0046_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),371.0
+WY2025,Tule,,L0046_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),369.8
+WY2025,Tule,,L0046_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.2
+WY2025,Tule,,P0007_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),210.0
+WY2025,Tule,,P0007_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),207.5
+WY2025,Tule,,P0007_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.5
+WY2025,Tule,,P0008_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),229.1
+WY2025,Tule,,P0008_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),227.0
+WY2025,Tule,,P0008_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,P0009_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),205.2
+WY2025,Tule,,P0009_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),202.9
+WY2025,Tule,,P0009_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.3
+WY2025,Tule,,P0010_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),202.4
+WY2025,Tule,,P0010_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),200.2
+WY2025,Tule,,P0010_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.1
+WY2025,Tule,,P0011_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),218.5
+WY2025,Tule,,P0011_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),216.1
+WY2025,Tule,,P0011_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.4
+WY2025,Tule,,P0025_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),273.4
+WY2025,Tule,,P0025_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),271.4
+WY2025,Tule,,P0025_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,P0026_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),277.2
+WY2025,Tule,,P0026_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),274.8
+WY2025,Tule,,P0026_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.5
+WY2025,Tule,,P0027_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),255.3
+WY2025,Tule,,P0027_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),253.7
+WY2025,Tule,,P0027_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.7
+WY2025,Tule,,P0028_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),278.0
+WY2025,Tule,,P0028_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),275.7
+WY2025,Tule,,P0028_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.3
+WY2025,Tule,,P0029_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),283.5
+WY2025,Tule,,P0029_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),282.2
+WY2025,Tule,,P0029_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.3
+WY2025,Tule,,P0036_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),323.6
+WY2025,Tule,,P0036_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),322.2
+WY2025,Tule,,P0036_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.4
+WY2025,Tule,,P0037_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),324.6
+WY2025,Tule,,P0037_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),323.2
+WY2025,Tule,,P0037_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.4
+WY2025,Tule,,P0090_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),367.6
+WY2025,Tule,,P0090_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,P0091_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,P0093_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),349.5
+WY2025,Tule,,P0093_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,P0094_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),309.5
+WY2025,Tule,,P0094_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,P0096_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),335.9
+WY2025,Tule,,P0096_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,PD0050_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),386.6
+WY2025,Tule,,PD0050_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),0.0
+WY2025,Tule,,S0035_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),342.1
+WY2025,Tule,,S0047_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),366.2
+WY2025,Tule,,S0048_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),370.5
+WY2025,Tule,,S0049_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),403.2
+WY2025,Tule,,T0014_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),219.4
+WY2025,Tule,,T0014_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),217.8
+WY2025,Tule,,T0014_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.6
+WY2025,Tule,,T0015_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),217.1
+WY2025,Tule,,T0015_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),215.8
+WY2025,Tule,,T0015_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.3
+WY2025,Tule,,T0016_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),201.3
+WY2025,Tule,,T0016_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),200.3
+WY2025,Tule,,T0016_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),1.0
+WY2025,Tule,,T0021_B_RMS,,,benchmark surveyed,2020 Elevation (ft amsl),183.0
+WY2025,Tule,,T0021_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),180.9
+WY2025,Tule,,T0021_B_RMS,,,benchmark surveyed,2020 to 2025 Subsidence (ft),2.0
+WY2025,Tule,,T0092_B_RMS,,,benchmark surveyed,2025 Elevation (ft amsl),199.6
+WY2025,Tule,,D0012_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),266.06
+WY2025,Tule,,D0012_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),266.01
+WY2025,Tule,,D0030_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),271.89
+WY2025,Tule,,D0030_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),271.6
+WY2025,Tule,,D0031_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),295.86
+WY2025,Tule,,D0031_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),295.6
+WY2025,Tule,,D0032_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),316.44
+WY2025,Tule,,D0032_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),316.32
+WY2025,Tule,,D0033_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),365.66
+WY2025,Tule,,D0033_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),365.84
+WY2025,Tule,,D0034_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),339.61
+WY2025,Tule,,D0034_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),339.65
+WY2025,Tule,,D0073_G_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),406.2
+WY2025,Tule,,D0073_G_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),405.55
+WY2025,Tule,,D0073_G_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),405.56
+WY2025,Tule,,D0073_G_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),405.34
+WY2025,Tule,,D0074_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),415.5
+WY2025,Tule,,D0074_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),415.06
+WY2025,Tule,,D0074_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),415.01
+WY2025,Tule,,D0074_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),414.9
+WY2025,Tule,,D0075_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),403.2
+WY2025,Tule,,D0075_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),402.72
+WY2025,Tule,,D0075_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),402.71
+WY2025,Tule,,D0075_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),402.63
+WY2025,Tule,,D0076_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),408.9
+WY2025,Tule,,D0076_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),408.2
+WY2025,Tule,,D0076_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),408.3
+WY2025,Tule,,D0076_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),408.15
+WY2025,Tule,,D0077_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),401.9
+WY2025,Tule,,D0077_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),401.51
+WY2025,Tule,,D0077_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),401.56
+WY2025,Tule,,D0077_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),401.52
+WY2025,Tule,,D0078_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),406.1
+WY2025,Tule,,D0078_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),405.87
+WY2025,Tule,,D0078_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),405.94
+WY2025,Tule,,D0078_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),405.73
+WY2025,Tule,,D0079_G_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),407.1
+WY2025,Tule,,D0079_G_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),406.99
+WY2025,Tule,,D0079_G_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),407.03
+WY2025,Tule,,D0079_G_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),406.85
+WY2025,Tule,,D0080_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),433.1
+WY2025,Tule,,D0080_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),432.94
+WY2025,Tule,,D0080_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),433.01
+WY2025,Tule,,D0080_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),432.97
+WY2025,Tule,,D0081_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),399.5
+WY2025,Tule,,D0081_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),399.42
+WY2025,Tule,,D0081_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),399.27
+WY2025,Tule,,D0081_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),399.28
+WY2025,Tule,,D0082_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),423.4
+WY2025,Tule,,D0082_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),423.43
+WY2025,Tule,,D0082_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),423.56
+WY2025,Tule,,D0082_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),423.7
+WY2025,Tule,,D0083_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),419.5
+WY2025,Tule,,D0083_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),419.53
+WY2025,Tule,,D0083_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),419.57
+WY2025,Tule,,D0083_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),419.47
+WY2025,Tule,,D0084_B_FKC,,,benchmark surveyed,2020 Elevation (ft amsl),407.3
+WY2025,Tule,,D0084_B_FKC,,,benchmark surveyed,2023 Elevation (ft amsl),406.94
+WY2025,Tule,,D0084_B_FKC,,,benchmark surveyed,2024 Elevation (ft amsl),406.99
+WY2025,Tule,,D0084_B_FKC,,,benchmark surveyed,2025 Elevation (ft amsl),406.93
+WY2025,Tule,,D0089_B_RMS,,,benchmark surveyed,2023 Elevation (ft amsl),498.19
+WY2025,Tule,,D0089_B_RMS,,,benchmark surveyed,2024 Elevation (ft amsl),498.16

@@ -1,0 +1,19 @@
+subbasin,subbasin_name,area_name,category,metric,period,value,units,per_area,source_doc,page,notes
+5-022.09,Westside,Subbasin,metadata,consultant,-,LSCE (Luhdorff & Scalmanini),text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,title,
+5-022.09,Westside,Subbasin,metadata,gsp_date,-,2025-01,date,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,title,Amended GSP January 2025
+5-022.09,Westside,Subbasin,metadata,n_gsas,-,1,count,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,703,Westlands WD is sole GSA (+~10183 ac to a second GSA west of District)
+5-022.09,Westside,Subbasin,metadata,basin_area,-,,acres,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,,TODO verify subbasin acreage (~535000 ac cultivated cited p78)
+5-022.09,Westside,Subbasin,water_budget,sustainable_yield,historical,305000,AF/yr,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,33,Table ES-1; historical GW budget 1989-2015 (WSGM)
+5-022.09,Westside,Subbasin,water_budget,sustainable_yield,projected,282000,AF/yr,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,33,Table ES-1; projected 2020-2070 range 270000-294000 (midpoint stored; see notes)
+5-022.09,Westside,Subbasin,water_budget,total_extraction,historical,324000,AF/yr,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,146,long-term average pumping (WSGM)
+5-022.09,Westside,Subbasin,storage,change_in_storage,historical,-19000,AF/yr,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,146,decline in storage (overdraft); consultant term "decline in storage"
+5-022.09,Westside,Subbasin,smc,smc_subsidence_mt_annual,-,0.3,ft/yr,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,35,Table ES-3; same for San Luis Canal & other sites
+5-022.09,Westside,Subbasin,smc,smc_subsidence_mt_cumulative,-,1.5,ft,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,35,Table ES-3; San Luis Canal sites (Other sites = 2.5 ft)
+5-022.09,Westside,Subbasin,smc,smc_gwl_mt,-,2012-2016 drought low + 40 ft (baseline in Subsidence Prone Areas),text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,35,Table ES-3; MO = avg fall 2006-2012 levels
+5-022.09,Westside,Subbasin,smc,smc_storage_ur,-,Upper Aquifer decline 51000 AF; Lower Aquifer decline 87000 AF (2 consec yrs),text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,35,Table ES-3; relative to baseline
+5-022.09,Westside,Subbasin,smc,smc_wq_mt,-,Drinking: MCL/HAL; Agricultural: ag WQ targets,text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,35,Table ES-3
+5-022.09,Westside,Subbasin,smc,smc_isw_mt,-,applicable,text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,7,ISW has MOs defined; TODO capture MT value
+5-022.09,Westside,Subbasin,monitoring,rms_count_subsidence,-,46,count,,5-022.09 GSP Table 3-15,361,26 WWD GPS + 4 USBR + 12 DWR/CASP + 1 UNAVCO CGPS + 3 USGS extensometer
+5-022.09,Westside,Subbasin,monitoring,rms_count_gwl,-,,count,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,360,TODO Table 3-14 count
+5-022.09,Westside,Subbasin,pma,pma_count,-,4,count,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,39,Table ES-4 (verify if >4); imports, allocation, 2x recharge enhancement
+5-022.09,Westside,Subbasin,pma,pma_supply_vs_demand,-,supply (imports+recharge) + demand (allocation program),text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,39,Table ES-4

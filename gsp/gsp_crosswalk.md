@@ -22,6 +22,21 @@ and PMA summary are almost always tabulated there.
 | `rms_count_gwl` | Table 3-14 "Proposed Monitoring Network for Water Levels" (p360) |
 | `pma_count` / `pma_supply_vs_demand` | Table ES-4 "Project and Management Actions" (p39) |
 
+## Canonical metric → Tulare Lake (coordinated, 2022 Amended GSP)
+
+Unlike Westside, this GSP has **no "Table ES-*" summary** — the headline numbers are in the
+water-budget **narrative** (Ch. 3/ES around p36, p146–148). Extraction must handle both patterns.
+
+| Canonical metric | Tulare Lake — term / location |
+|---|---|
+| `sustainable_yield` | "long-term sustainable yield for agricultural pumping ≈ −229,220 AF/Y" (p148) |
+| `total_extraction` | "average groundwater pumping −348,700 AF/Y" (p36, 1998–2010 normal hydrology) |
+| `change_in_storage` | "estimated annual change in storage … averaged about −85,690 AF/Y" (p146, 1990–2016) |
+
+**⚠ Sign convention differs:** Tulare Lake writes **pumping and sustainable yield as negative**
+(−348,700, −229,220). Canonical form stores them as **positive magnitudes**; only `change_in_storage`
+keeps its sign (negative = overdraft). Always check each GSP's sign convention and normalize.
+
 ## Notes / conventions
 - **Ranges** (e.g. projected sustainable yield 270,000–294,000): store a single representative value
   in `value` and the full range in `notes`.

@@ -17,3 +17,10 @@ subbasin,subbasin_name,area_name,category,metric,period,value,units,per_area,sou
 5-022.09,Westside,Subbasin,monitoring,rms_count_gwl,-,,count,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,360,TODO Table 3-14 count
 5-022.09,Westside,Subbasin,pma,pma_count,-,4,count,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,39,Table ES-4 (verify if >4); imports, allocation, 2x recharge enhancement
 5-022.09,Westside,Subbasin,pma,pma_supply_vs_demand,-,supply (imports+recharge) + demand (allocation program),text,,Westside Subbasin Amended GSP (January 2025)_Reduced_20250128.pdf,39,Table ES-4
+5-022.12,Tulare Lake,Subbasin,metadata,gsp_date,-,2022,date,,2022 Tulare Lake Amended GSP and Addendum.pdf,title,Amended GSP + Addendum
+5-022.12,Tulare Lake,Subbasin,metadata,consultant,-,Tulare Lake Subbasin GSAs (coordinated),text,,2022 Tulare Lake Amended GSP and Addendum.pdf,title,TODO confirm lead consultant
+5-022.12,Tulare Lake,Subbasin,water_budget,sustainable_yield,historical,229220,AF/yr,,2022 Tulare Lake Amended GSP and Addendum.pdf,148,"normalized to positive; GSP writes -229,220 AF/Y (ag pumping, sign=pumping negative)"
+5-022.12,Tulare Lake,Subbasin,water_budget,total_extraction,historical,348700,AF/yr,,2022 Tulare Lake Amended GSP and Addendum.pdf,36,"1998-2010 normal-hydrology avg pumping; GSP writes -348,700 AF/Y"
+5-022.12,Tulare Lake,Subbasin,storage,change_in_storage,historical,-85690,AF/yr,,2022 Tulare Lake Amended GSP and Addendum.pdf,146,"1990-2016 avg; range -392,280 (2015) to +361,230 (2011)"
+5-022.12,Tulare Lake,Subbasin,smc,smc_subsidence_mt_annual,-,,ft/yr,,2022 Tulare Lake Amended GSP and Addendum.pdf,,TODO from SMC chapter
+5-022.12,Tulare Lake,Subbasin,monitoring,rms_count_subsidence,-,,count,,2022 Tulare Lake Amended GSP and Addendum.pdf,,TODO

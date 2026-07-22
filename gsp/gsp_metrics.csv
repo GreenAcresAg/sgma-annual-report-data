@@ -33,3 +33,9 @@ subbasin,subbasin_name,area_name,category,metric,period,value,units,per_area,sou
 5-022.11,Kaweah,Subbasin,storage,change_in_storage,current,-230700,AF/yr,-0.5231,Kaweah Subbasin GSP — Greater Kaweah GSA (Draft),35,"current GW budget: avg annual aquifer storage loss ~230,700 AFY"
 5-022.11,Kaweah,Subbasin,smc,smc_subsidence_mt_annual,-,,ft/yr,,Kaweah Subbasin GSP — Greater Kaweah GSA (Draft),305,MT rates range from ~0.x (per-benchmark); TODO full value
 5-022.11,Kaweah,Subbasin,monitoring,rms_count_subsidence,-,,count,,Kaweah Subbasin GSP — East Kaweah GSA (2nd Amended),,TODO
+5-022.08,Kings,Subbasin,metadata,gsp_date,-,2025,date,,Kings Subbasin GSP — South Kings GSA (2025 Update),title,GSA GSPs 2025 Update (coordinated); Coordination Agreement Appendix A
+5-022.08,Kings,Subbasin,metadata,consultant,-,7 coordinated Kings GSAs,text,,Kings Subbasin GSP — South Kings GSA (2025 Update),24,"NFK/North/Central/South Kings, James, McMullin, Kings River East"
+5-022.08,Kings,Subbasin,metadata,n_gsas,-,7,count,,Kings Subbasin GSP — South Kings GSA (2025 Update),24,
+5-022.08,Kings,Subbasin,metadata,basin_area,-,979200,acres,,Kings Subbasin GSP — South Kings GSA (2025 Update),51,"1,530 sq mi"
+5-022.08,Kings,Subbasin,water_budget,sustainable_yield,current,1240000,AF/yr,1.2663,Kings Subbasin GSP — South Kings GSA (2025 Update),169,"Current Kings Basin Water Budget Table 3-8 (1,450,000 - 210,000)"
+5-022.08,Kings,Subbasin,storage,change_in_storage,current,-122000,AF/yr,-0.1246,Kings Subbasin GSP — South Kings GSA (2025 Update),167,"total overdraft mitigation responsibility, Coordination Agreement Appendix A"

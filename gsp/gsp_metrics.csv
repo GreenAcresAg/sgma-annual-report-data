@@ -25,3 +25,11 @@ subbasin,subbasin_name,area_name,category,metric,period,value,units,per_area,sou
 5-022.12,Tulare Lake,Subbasin,storage,change_in_storage,historical,-85690,AF/yr,-0.1599,2022 Tulare Lake Amended GSP and Addendum.pdf,146,1990-2016 avg; range -392280 to +361230
 5-022.12,Tulare Lake,Subbasin,smc,smc_subsidence_mt_cumulative,-,11.5,ft,,2022 Tulare Lake Amended GSP and Addendum.pdf,574,max simulated subsidence to 2070 (TLSBHM); model-based not per-benchmark (contrast Westside 1.5-2.5 ft)
 5-022.12,Tulare Lake,Subbasin,monitoring,rms_count_subsidence,-,,count,,2022 Tulare Lake Amended GSP and Addendum.pdf,,TODO
+5-022.11,Kaweah,Subbasin,metadata,gsp_date,-,2026,date,,GSP 2026 (EKGSA 2nd Amended GSP).pdf,title,GSA 2nd Amended GSPs 2026 (GKGSA draft 2024); coordinated basin setting
+5-022.11,Kaweah,Subbasin,metadata,consultant,-,3 coordinated GSAs (East/Mid/Greater Kaweah),text,,GSP 2026 (EKGSA 2nd Amended GSP).pdf,title,shared Basin Setting Appendix 3A
+5-022.11,Kaweah,Subbasin,metadata,n_gsas,-,3,count,,GKGSA Draft GSP 2024.pdf,35,"East Kaweah, Mid-Kaweah, Greater Kaweah"
+5-022.11,Kaweah,Subbasin,metadata,basin_area,-,441000,acres,,GKGSA Draft GSP 2024.pdf,,696 sq mi (CDWR 2003)
+5-022.11,Kaweah,Subbasin,water_budget,sustainable_yield,current,578000,AF/yr,1.3107,GKGSA Draft GSP 2024.pdf,89,subbasin-level (coordinated); cited by all 3 GSA GSPs
+5-022.11,Kaweah,Subbasin,storage,change_in_storage,current,-230700,AF/yr,-0.5231,GKGSA Draft GSP 2024.pdf,35,"current GW budget: avg annual aquifer storage loss ~230,700 AFY"
+5-022.11,Kaweah,Subbasin,smc,smc_subsidence_mt_annual,-,,ft/yr,,GKGSA Draft GSP 2024.pdf,305,MT rates range from ~0.x (per-benchmark); TODO full value
+5-022.11,Kaweah,Subbasin,monitoring,rms_count_subsidence,-,,count,,GSP 2026 (EKGSA 2nd Amended GSP).pdf,,TODO

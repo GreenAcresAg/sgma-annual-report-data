@@ -39,3 +39,13 @@ subbasin,subbasin_name,area_name,category,metric,period,value,units,per_area,sou
 5-022.08,Kings,Subbasin,metadata,basin_area,-,979200,acres,,Kings Subbasin GSP — South Kings GSA (2025 Update),51,"1,530 sq mi"
 5-022.08,Kings,Subbasin,water_budget,sustainable_yield,current,1240000,AF/yr,1.2663,Kings Subbasin GSP — South Kings GSA (2025 Update),169,"Current Kings Basin Water Budget Table 3-8 (1,450,000 - 210,000)"
 5-022.08,Kings,Subbasin,storage,change_in_storage,current,-122000,AF/yr,-0.1246,Kings Subbasin GSP — South Kings GSA (2025 Update),167,"total overdraft mitigation responsibility, Coordination Agreement Appendix A"
+5-022.13,Tule,Subbasin,metadata,n_gsas,-,6,count,,Tule Subbasin GSP — Lower Tule River ID GSA (Revised),338,"6 exclusive GSAs (Eastern Tule, LTRID, Delano-Earlimart, Pixley, Tri-County, Alpaugh)"
+5-022.13,Tule,Subbasin,metadata,basin_area,-,475895,acres,,Tule Subbasin GSP — Lower Tule River ID GSA (Revised),365,744 sq mi (Bulletin 118)
+5-022.13,Tule,Subbasin,storage,change_in_storage,historical,-115300,AF/yr,-0.2423,Tule Subbasin GSP — Lower Tule River ID GSA (Revised),19,subbasin average overdraft (critically overdrafted)
+5-022.13,Tule,Subbasin,water_budget,sustainable_yield,current,130000,AF/yr,0.2732,Tule Subbasin GSP — Lower Tule River ID GSA (Revised),2425,"CAUTION: reported in LTRID GSP p2425 — likely LTRID allocation, not verified as subbasin total"
+5-022.14,Kern,Subbasin,metadata,gsp_date,-,2026,date,,Kern County Subbasin GSP — 2025 Amended (coordinated),title,"2025 Amended (coordinated, 20 GSAs)"
+5-022.14,Kern,Subbasin,metadata,n_gsas,-,20,count,,Kern County Subbasin GSP — 2025 Amended (coordinated),37,largest CA subbasin; 20 GSAs
+5-022.14,Kern,Subbasin,metadata,basin_area,-,1782321,acres,,Kern County Subbasin GSP — 2025 Amended (coordinated),112,"2,834 sq mi"
+5-022.14,Kern,Subbasin,water_budget,sustainable_yield,current,1312219,AF/yr,0.7362,Kern County Subbasin GSP — 2025 Amended (coordinated),596,water budget table
+5-022.14,Kern,Subbasin,water_budget,total_extraction,current,1586417,AF/yr,0.8901,Kern County Subbasin GSP — 2025 Amended (coordinated),594,avg annual GW pumping
+5-022.14,Kern,Subbasin,storage,change_in_storage,historical,-274200,AF/yr,-0.1538,Kern County Subbasin GSP — 2025 Amended (coordinated),640,long-term storage decline WY1995-2014

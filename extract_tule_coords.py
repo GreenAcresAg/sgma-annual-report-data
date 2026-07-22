@@ -37,9 +37,17 @@ def harvest(pdf):
                 lon = next((c for c in cells if LON.match(c)), None)
                 area = next((c for c in cells if "Area" in c or "Service" in c or "GSA" in c), "")
                 if sid and lat and lon:
-                    out[sid] = (lat, lon, area)
+                    out[sid] = (lat, lon, area, doc_name(pdf), f"RMS subsidence table p{page.number + 1}")
     doc.close()
     return out
+
+
+def doc_name(pdf):
+    """Canonical GSP name for the source_doc column (see docs/source_documents.csv)."""
+    f = os.path.basename(pdf)
+    if "LTRID" in f:
+        return "Tule Subbasin GSP — Lower Tule River ID GSA (Revised)"
+    return f  # extend as other member-GSA GSPs are added
 
 
 if __name__ == "__main__":
@@ -48,7 +56,8 @@ if __name__ == "__main__":
     coords = {}
     if os.path.exists(OUT):
         for r in csv.DictReader(open(OUT)):
-            coords[r["station_id"]] = (r["latitude"], r["longitude"], r.get("area", ""))
+            coords[r["station_id"]] = (r["latitude"], r["longitude"], r.get("area", ""),
+                                       r.get("source_doc", ""), r.get("source_page", ""))
     for pdf in sys.argv[1:]:
         if not os.path.exists(pdf):
             print(f"  missing: {pdf}"); continue
@@ -58,7 +67,8 @@ if __name__ == "__main__":
               f"(prefixes {sorted({k[0] for k in got})})")
     os.makedirs(DATA, exist_ok=True)
     with open(OUT, "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["station_id", "latitude", "longitude", "area"])
+        w = csv.writer(f)
+        w.writerow(["station_id", "latitude", "longitude", "area", "source_doc", "source_page"])
         for sid in sorted(coords):
             w.writerow([sid, *coords[sid]])
     print(f"wrote {len(coords)} total benchmark coords -> {os.path.basename(OUT)}")

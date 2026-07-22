@@ -111,6 +111,7 @@ if __name__ == "__main__":
         if k not in seen:
             seen.add(k); deduped.append(r)
     with open(OUT, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); w.writerows(deduped)
+        w = csv.DictWriter(f, fieldnames=COLS, extrasaction="ignore")
+        w.writeheader(); w.writerows(deduped)  # run stamp_sources.py after to (re)apply provenance
     wv = sum(1 for r in deduped if r.get("value") not in (None, "", "None"))
     print(f"wrote {len(deduped)} rows ({wv} with a value) -> {os.path.basename(OUT)}")

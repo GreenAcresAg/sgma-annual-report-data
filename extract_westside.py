@@ -48,7 +48,9 @@ def extract_network(gsp_pdf):
                 if not (LAT.match(lat) and LON.match(lon)):
                     continue
                 rows.append({"site_name": clean_id(name), "site_type": stype, "agency": agency,
-                             "latitude": lat, "longitude": lon})
+                             "latitude": lat, "longitude": lon,
+                             "source_doc": "Westside Subbasin GSP — Amended (LSCE, 2025)",
+                             "source_page": "Table 3-15 p361"})
     doc.close()
     return rows
 
@@ -104,7 +106,8 @@ if __name__ == "__main__":
     from collections import Counter
     os.makedirs(DATA, exist_ok=True)
     with open(NETCSV, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["site_name", "site_type", "agency", "latitude", "longitude"])
+        w = csv.DictWriter(f, fieldnames=["site_name", "site_type", "agency", "latitude", "longitude",
+                                          "source_doc", "source_page"])
         w.writeheader(); w.writerows(net)
     print(f"wrote {len(net)} sites -> {os.path.basename(NETCSV)}")
     print("  by agency:", dict(Counter(r["agency"] for r in net)))

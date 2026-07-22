@@ -106,6 +106,7 @@ if __name__ == "__main__":
     keep = [r for r in keep if r["subbasin"] != SUBBASIN]
     all_rows = keep + new
     with open(OUT, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); w.writerows(all_rows)
+        w = csv.DictWriter(f, fieldnames=COLS, extrasaction="ignore")
+        w.writeheader(); w.writerows(all_rows)  # run stamp_sources.py after to (re)apply provenance
     wv = sum(1 for r in new if r["value"] not in ("", None))
     print(f"replaced Kaweah: {len(new)} rows ({wv} with a value); CSV now {len(all_rows)} rows.")
